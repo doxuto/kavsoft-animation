@@ -1,0 +1,10 @@
+{
+    "aps" : {
+        "alert" : {
+            "title" : "Loreal Ipsum",
+            "body" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+        },
+        "badge" : 0
+    },
+    "Simulator Target Bundle": "com.kavsoft.DynamicIslandAnimation"
+}

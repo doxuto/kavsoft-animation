@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1970742944B2E8004A5F50 /* Lockscreen_DockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970732944B2E8004A5F50 /* Lockscreen_DockApp.swift */; };
+		AD1970762944B2E8004A5F50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970752944B2E8004A5F50 /* ContentView.swift */; };
+		AD1970782944B2E8004A5F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1970772944B2E8004A5F50 /* Assets.xcassets */; };
+		AD19707C2944B2E8004A5F50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD19707B2944B2E8004A5F50 /* Preview Assets.xcassets */; };
+		AD1970852944B3E0004A5F50 /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970842944B3E0004A5F50 /* AppLink.swift */; };
+		AD1970882944B4A9004A5F50 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970872944B4A9004A5F50 /* Home.swift */; };
+		AD1970902944B80D004A5F50 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD19708F2944B80D004A5F50 /* WidgetKit.framework */; };
+		AD1970922944B80D004A5F50 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1970912944B80D004A5F50 /* SwiftUI.framework */; };
+		AD1970952944B80D004A5F50 /* DockBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970942944B80D004A5F50 /* DockBundle.swift */; };
+		AD1970972944B80D004A5F50 /* DockLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970962944B80D004A5F50 /* DockLiveActivity.swift */; };
+		AD1970992944B80D004A5F50 /* Dock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970982944B80D004A5F50 /* Dock.swift */; };
+		AD19709B2944B80E004A5F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD19709A2944B80E004A5F50 /* Assets.xcassets */; };
+		AD19709F2944B80E004A5F50 /* DockExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AD19708D2944B80D004A5F50 /* DockExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD1970A52944B825004A5F50 /* DockAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970A42944B825004A5F50 /* DockAttributes.swift */; };
+		AD1970A62944B855004A5F50 /* DockAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970A42944B825004A5F50 /* DockAttributes.swift */; };
+		AD1970A72944B859004A5F50 /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1970842944B3E0004A5F50 /* AppLink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD19709D2944B80E004A5F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1970682944B2E8004A5F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD19708C2944B80D004A5F50;
+			remoteInfo = DockExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD1970A32944B80E004A5F50 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD19709F2944B80E004A5F50 /* DockExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD1970702944B2E8004A5F50 /* Lockscreen Dock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lockscreen Dock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1970732944B2E8004A5F50 /* Lockscreen_DockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lockscreen_DockApp.swift; sourceTree = "<group>"; };
+		AD1970752944B2E8004A5F50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD1970772944B2E8004A5F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD1970792944B2E8004A5F50 /* Lockscreen_Dock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lockscreen_Dock.entitlements; sourceTree = "<group>"; };
+		AD19707B2944B2E8004A5F50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD1970842944B3E0004A5F50 /* AppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
+		AD1970862944B434004A5F50 /* Lockscreen-Dock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lockscreen-Dock-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AD1970872944B4A9004A5F50 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD19708D2944B80D004A5F50 /* DockExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DockExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD19708F2944B80D004A5F50 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AD1970912944B80D004A5F50 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AD1970942944B80D004A5F50 /* DockBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockBundle.swift; sourceTree = "<group>"; };
+		AD1970962944B80D004A5F50 /* DockLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockLiveActivity.swift; sourceTree = "<group>"; };
+		AD1970982944B80D004A5F50 /* Dock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dock.swift; sourceTree = "<group>"; };
+		AD19709A2944B80E004A5F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD19709C2944B80E004A5F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1970A42944B825004A5F50 /* DockAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockAttributes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD19706D2944B2E8004A5F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD19708A2944B80D004A5F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1970922944B80D004A5F50 /* SwiftUI.framework in Frameworks */,
+				AD1970902944B80D004A5F50 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1970672944B2E8004A5F50 = {
+			isa = PBXGroup;
+			children = (
+				AD1970722944B2E8004A5F50 /* Lockscreen Dock */,
+				AD1970932944B80D004A5F50 /* Dock */,
+				AD19708E2944B80D004A5F50 /* Frameworks */,
+				AD1970712944B2E8004A5F50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1970712944B2E8004A5F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1970702944B2E8004A5F50 /* Lockscreen Dock.app */,
+				AD19708D2944B80D004A5F50 /* DockExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1970722944B2E8004A5F50 /* Lockscreen Dock */ = {
+			isa = PBXGroup;
+			children = (
+				AD1970862944B434004A5F50 /* Lockscreen-Dock-Info.plist */,
+				AD1970832944B3D6004A5F50 /* View */,
+				AD1970822944B3D2004A5F50 /* Model */,
+				AD1970732944B2E8004A5F50 /* Lockscreen_DockApp.swift */,
+				AD1970752944B2E8004A5F50 /* ContentView.swift */,
+				AD1970772944B2E8004A5F50 /* Assets.xcassets */,
+				AD1970792944B2E8004A5F50 /* Lockscreen_Dock.entitlements */,
+				AD19707A2944B2E8004A5F50 /* Preview Content */,
+			);
+			path = "Lockscreen Dock";
+			sourceTree = "<group>";
+		};
+		AD19707A2944B2E8004A5F50 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD19707B2944B2E8004A5F50 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD1970822944B3D2004A5F50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD1970842944B3E0004A5F50 /* AppLink.swift */,
+				AD1970A42944B825004A5F50 /* DockAttributes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD1970832944B3D6004A5F50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD1970872944B4A9004A5F50 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD19708E2944B80D004A5F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD19708F2944B80D004A5F50 /* WidgetKit.framework */,
+				AD1970912944B80D004A5F50 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD1970932944B80D004A5F50 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				AD1970942944B80D004A5F50 /* DockBundle.swift */,
+				AD1970962944B80D004A5F50 /* DockLiveActivity.swift */,
+				AD1970982944B80D004A5F50 /* Dock.swift */,
+				AD19709A2944B80E004A5F50 /* Assets.xcassets */,
+				AD19709C2944B80E004A5F50 /* Info.plist */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD19706F2944B2E8004A5F50 /* Lockscreen Dock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD19707F2944B2E8004A5F50 /* Build configuration list for PBXNativeTarget "Lockscreen Dock" */;
+			buildPhases = (
+				AD19706C2944B2E8004A5F50 /* Sources */,
+				AD19706D2944B2E8004A5F50 /* Frameworks */,
+				AD19706E2944B2E8004A5F50 /* Resources */,
+				AD1970A32944B80E004A5F50 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD19709E2944B80E004A5F50 /* PBXTargetDependency */,
+			);
+			name = "Lockscreen Dock";
+			productName = "Lockscreen Dock";
+			productReference = AD1970702944B2E8004A5F50 /* Lockscreen Dock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD19708C2944B80D004A5F50 /* DockExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1970A02944B80E004A5F50 /* Build configuration list for PBXNativeTarget "DockExtension" */;
+			buildPhases = (
+				AD1970892944B80D004A5F50 /* Sources */,
+				AD19708A2944B80D004A5F50 /* Frameworks */,
+				AD19708B2944B80D004A5F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DockExtension;
+			productName = DockExtension;
+			productReference = AD19708D2944B80D004A5F50 /* DockExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1970682944B2E8004A5F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AD19706F2944B2E8004A5F50 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AD19708C2944B80D004A5F50 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AD19706B2944B2E8004A5F50 /* Build configuration list for PBXProject "Lockscreen Dock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD1970672944B2E8004A5F50;
+			productRefGroup = AD1970712944B2E8004A5F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD19706F2944B2E8004A5F50 /* Lockscreen Dock */,
+				AD19708C2944B80D004A5F50 /* DockExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD19706E2944B2E8004A5F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD19707C2944B2E8004A5F50 /* Preview Assets.xcassets in Resources */,
+				AD1970782944B2E8004A5F50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD19708B2944B80D004A5F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD19709B2944B80E004A5F50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD19706C2944B2E8004A5F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1970852944B3E0004A5F50 /* AppLink.swift in Sources */,
+				AD1970762944B2E8004A5F50 /* ContentView.swift in Sources */,
+				AD1970A52944B825004A5F50 /* DockAttributes.swift in Sources */,
+				AD1970882944B4A9004A5F50 /* Home.swift in Sources */,
+				AD1970742944B2E8004A5F50 /* Lockscreen_DockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1970892944B80D004A5F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1970A72944B859004A5F50 /* AppLink.swift in Sources */,
+				AD1970952944B80D004A5F50 /* DockBundle.swift in Sources */,
+				AD1970992944B80D004A5F50 /* Dock.swift in Sources */,
+				AD1970972944B80D004A5F50 /* DockLiveActivity.swift in Sources */,
+				AD1970A62944B855004A5F50 /* DockAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD19709E2944B80E004A5F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD19708C2944B80D004A5F50 /* DockExtension */;
+			targetProxy = AD19709D2944B80E004A5F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD19707D2944B2E8004A5F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD19707E2944B2E8004A5F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD1970802944B2E8004A5F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lockscreen Dock/Lockscreen_Dock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lockscreen Dock/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lockscreen-Dock-Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Lockscreen-Dock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD1970812944B2E8004A5F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lockscreen Dock/Lockscreen_Dock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lockscreen Dock/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lockscreen-Dock-Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Lockscreen-Dock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AD1970A12944B80E004A5F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dock;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Lockscreen-Dock.Dock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD1970A22944B80E004A5F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dock;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Lockscreen-Dock.Dock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD19706B2944B2E8004A5F50 /* Build configuration list for PBXProject "Lockscreen Dock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD19707D2944B2E8004A5F50 /* Debug */,
+				AD19707E2944B2E8004A5F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD19707F2944B2E8004A5F50 /* Build configuration list for PBXNativeTarget "Lockscreen Dock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1970802944B2E8004A5F50 /* Debug */,
+				AD1970812944B2E8004A5F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1970A02944B80E004A5F50 /* Build configuration list for PBXNativeTarget "DockExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1970A12944B80E004A5F50 /* Debug */,
+				AD1970A22944B80E004A5F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD1970682944B2E8004A5F50 /* Project object */;
+}

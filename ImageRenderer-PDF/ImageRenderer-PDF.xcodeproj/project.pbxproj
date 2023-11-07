@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD9EB84028676EEE00E50E4A /* ImageRenderer_PDFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB83F28676EEE00E50E4A /* ImageRenderer_PDFApp.swift */; };
+		AD9EB84228676EEE00E50E4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB84128676EEE00E50E4A /* ContentView.swift */; };
+		AD9EB84428676EEF00E50E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9EB84328676EEF00E50E4A /* Assets.xcassets */; };
+		AD9EB84828676EEF00E50E4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9EB84728676EEF00E50E4A /* Preview Assets.xcassets */; };
+		AD9EB85228676EEF00E50E4A /* ImageRenderer_PDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB85128676EEF00E50E4A /* ImageRenderer_PDFTests.swift */; };
+		AD9EB85C28676EEF00E50E4A /* ImageRenderer_PDFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB85B28676EEF00E50E4A /* ImageRenderer_PDFUITests.swift */; };
+		AD9EB85E28676EEF00E50E4A /* ImageRenderer_PDFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB85D28676EEF00E50E4A /* ImageRenderer_PDFUITestsLaunchTests.swift */; };
+		ADC46029286793E300727065 /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC46028286793E300727065 /* ReceiptView.swift */; };
+		ADC4602B28679ABC00727065 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC4602A28679ABC00727065 /* ShareSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD9EB84E28676EEF00E50E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9EB83428676EEE00E50E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9EB83B28676EEE00E50E4A;
+			remoteInfo = "ImageRenderer-PDF";
+		};
+		AD9EB85828676EEF00E50E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9EB83428676EEE00E50E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9EB83B28676EEE00E50E4A;
+			remoteInfo = "ImageRenderer-PDF";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD9EB83C28676EEE00E50E4A /* ImageRenderer-PDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageRenderer-PDF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9EB83F28676EEE00E50E4A /* ImageRenderer_PDFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRenderer_PDFApp.swift; sourceTree = "<group>"; };
+		AD9EB84128676EEE00E50E4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD9EB84328676EEF00E50E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD9EB84528676EEF00E50E4A /* ImageRenderer_PDF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageRenderer_PDF.entitlements; sourceTree = "<group>"; };
+		AD9EB84728676EEF00E50E4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD9EB84D28676EEF00E50E4A /* ImageRenderer-PDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageRenderer-PDFTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9EB85128676EEF00E50E4A /* ImageRenderer_PDFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRenderer_PDFTests.swift; sourceTree = "<group>"; };
+		AD9EB85728676EEF00E50E4A /* ImageRenderer-PDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageRenderer-PDFUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9EB85B28676EEF00E50E4A /* ImageRenderer_PDFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRenderer_PDFUITests.swift; sourceTree = "<group>"; };
+		AD9EB85D28676EEF00E50E4A /* ImageRenderer_PDFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRenderer_PDFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADC46028286793E300727065 /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
+		ADC4602A28679ABC00727065 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD9EB83928676EEE00E50E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB84A28676EEF00E50E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB85428676EEF00E50E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD9EB83328676EEE00E50E4A = {
+			isa = PBXGroup;
+			children = (
+				AD9EB83E28676EEE00E50E4A /* ImageRenderer-PDF */,
+				AD9EB85028676EEF00E50E4A /* ImageRenderer-PDFTests */,
+				AD9EB85A28676EEF00E50E4A /* ImageRenderer-PDFUITests */,
+				AD9EB83D28676EEE00E50E4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD9EB83D28676EEE00E50E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB83C28676EEE00E50E4A /* ImageRenderer-PDF.app */,
+				AD9EB84D28676EEF00E50E4A /* ImageRenderer-PDFTests.xctest */,
+				AD9EB85728676EEF00E50E4A /* ImageRenderer-PDFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD9EB83E28676EEE00E50E4A /* ImageRenderer-PDF */ = {
+			isa = PBXGroup;
+			children = (
+				ADC46025286793BD00727065 /* View */,
+				AD9EB83F28676EEE00E50E4A /* ImageRenderer_PDFApp.swift */,
+				AD9EB84128676EEE00E50E4A /* ContentView.swift */,
+				AD9EB84328676EEF00E50E4A /* Assets.xcassets */,
+				AD9EB84528676EEF00E50E4A /* ImageRenderer_PDF.entitlements */,
+				AD9EB84628676EEF00E50E4A /* Preview Content */,
+			);
+			path = "ImageRenderer-PDF";
+			sourceTree = "<group>";
+		};
+		AD9EB84628676EEF00E50E4A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB84728676EEF00E50E4A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD9EB85028676EEF00E50E4A /* ImageRenderer-PDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB85128676EEF00E50E4A /* ImageRenderer_PDFTests.swift */,
+			);
+			path = "ImageRenderer-PDFTests";
+			sourceTree = "<group>";
+		};
+		AD9EB85A28676EEF00E50E4A /* ImageRenderer-PDFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EB85B28676EEF00E50E4A /* ImageRenderer_PDFUITests.swift */,
+				AD9EB85D28676EEF00E50E4A /* ImageRenderer_PDFUITestsLaunchTests.swift */,
+			);
+			path = "ImageRenderer-PDFUITests";
+			sourceTree = "<group>";
+		};
+		ADC46025286793BD00727065 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADC46028286793E300727065 /* ReceiptView.swift */,
+				ADC4602A28679ABC00727065 /* ShareSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD9EB83B28676EEE00E50E4A /* ImageRenderer-PDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9EB86128676EEF00E50E4A /* Build configuration list for PBXNativeTarget "ImageRenderer-PDF" */;
+			buildPhases = (
+				AD9EB83828676EEE00E50E4A /* Sources */,
+				AD9EB83928676EEE00E50E4A /* Frameworks */,
+				AD9EB83A28676EEE00E50E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageRenderer-PDF";
+			productName = "ImageRenderer-PDF";
+			productReference = AD9EB83C28676EEE00E50E4A /* ImageRenderer-PDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD9EB84C28676EEF00E50E4A /* ImageRenderer-PDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9EB86428676EEF00E50E4A /* Build configuration list for PBXNativeTarget "ImageRenderer-PDFTests" */;
+			buildPhases = (
+				AD9EB84928676EEF00E50E4A /* Sources */,
+				AD9EB84A28676EEF00E50E4A /* Frameworks */,
+				AD9EB84B28676EEF00E50E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9EB84F28676EEF00E50E4A /* PBXTargetDependency */,
+			);
+			name = "ImageRenderer-PDFTests";
+			productName = "ImageRenderer-PDFTests";
+			productReference = AD9EB84D28676EEF00E50E4A /* ImageRenderer-PDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD9EB85628676EEF00E50E4A /* ImageRenderer-PDFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9EB86728676EEF00E50E4A /* Build configuration list for PBXNativeTarget "ImageRenderer-PDFUITests" */;
+			buildPhases = (
+				AD9EB85328676EEF00E50E4A /* Sources */,
+				AD9EB85428676EEF00E50E4A /* Frameworks */,
+				AD9EB85528676EEF00E50E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9EB85928676EEF00E50E4A /* PBXTargetDependency */,
+			);
+			name = "ImageRenderer-PDFUITests";
+			productName = "ImageRenderer-PDFUITests";
+			productReference = AD9EB85728676EEF00E50E4A /* ImageRenderer-PDFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD9EB83428676EEE00E50E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AD9EB83B28676EEE00E50E4A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					AD9EB84C28676EEF00E50E4A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AD9EB83B28676EEE00E50E4A;
+					};
+					AD9EB85628676EEF00E50E4A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AD9EB83B28676EEE00E50E4A;
+					};
+				};
+			};
+			buildConfigurationList = AD9EB83728676EEE00E50E4A /* Build configuration list for PBXProject "ImageRenderer-PDF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD9EB83328676EEE00E50E4A;
+			productRefGroup = AD9EB83D28676EEE00E50E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD9EB83B28676EEE00E50E4A /* ImageRenderer-PDF */,
+				AD9EB84C28676EEF00E50E4A /* ImageRenderer-PDFTests */,
+				AD9EB85628676EEF00E50E4A /* ImageRenderer-PDFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD9EB83A28676EEE00E50E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9EB84828676EEF00E50E4A /* Preview Assets.xcassets in Resources */,
+				AD9EB84428676EEF00E50E4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB84B28676EEF00E50E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB85528676EEF00E50E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD9EB83828676EEE00E50E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC46029286793E300727065 /* ReceiptView.swift in Sources */,
+				AD9EB84228676EEE00E50E4A /* ContentView.swift in Sources */,
+				AD9EB84028676EEE00E50E4A /* ImageRenderer_PDFApp.swift in Sources */,
+				ADC4602B28679ABC00727065 /* ShareSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB84928676EEF00E50E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9EB85228676EEF00E50E4A /* ImageRenderer_PDFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9EB85328676EEF00E50E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9EB85E28676EEF00E50E4A /* ImageRenderer_PDFUITestsLaunchTests.swift in Sources */,
+				AD9EB85C28676EEF00E50E4A /* ImageRenderer_PDFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD9EB84F28676EEF00E50E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9EB83B28676EEE00E50E4A /* ImageRenderer-PDF */;
+			targetProxy = AD9EB84E28676EEF00E50E4A /* PBXContainerItemProxy */;
+		};
+		AD9EB85928676EEF00E50E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9EB83B28676EEE00E50E4A /* ImageRenderer-PDF */;
+			targetProxy = AD9EB85828676EEF00E50E4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD9EB85F28676EEF00E50E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD9EB86028676EEF00E50E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD9EB86228676EEF00E50E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ImageRenderer-PDF/ImageRenderer_PDF.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageRenderer-PDF/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To Save Image";
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.ImageRenderer-PDF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD9EB86328676EEF00E50E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ImageRenderer-PDF/ImageRenderer_PDF.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageRenderer-PDF/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To Save Image";
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.ImageRenderer-PDF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD9EB86528676EEF00E50E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.ImageRenderer-PDFTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRenderer-PDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageRenderer-PDF";
+			};
+			name = Debug;
+		};
+		AD9EB86628676EEF00E50E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.ImageRenderer-PDFTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRenderer-PDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageRenderer-PDF";
+			};
+			name = Release;
+		};
+		AD9EB86828676EEF00E50E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.ImageRenderer-PDFUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ImageRenderer-PDF";
+			};
+			name = Debug;
+		};
+		AD9EB86928676EEF00E50E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.ImageRenderer-PDFUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ImageRenderer-PDF";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD9EB83728676EEE00E50E4A /* Build configuration list for PBXProject "ImageRenderer-PDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9EB85F28676EEF00E50E4A /* Debug */,
+				AD9EB86028676EEF00E50E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9EB86128676EEF00E50E4A /* Build configuration list for PBXNativeTarget "ImageRenderer-PDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9EB86228676EEF00E50E4A /* Debug */,
+				AD9EB86328676EEF00E50E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9EB86428676EEF00E50E4A /* Build configuration list for PBXNativeTarget "ImageRenderer-PDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9EB86528676EEF00E50E4A /* Debug */,
+				AD9EB86628676EEF00E50E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9EB86728676EEF00E50E4A /* Build configuration list for PBXNativeTarget "ImageRenderer-PDFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9EB86828676EEF00E50E4A /* Debug */,
+				AD9EB86928676EEF00E50E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD9EB83428676EEE00E50E4A /* Project object */;
+}

@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD312D5627D757020053C4DD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD312D5527D757020053C4DD /* Home.swift */; };
+		AD312D5827D759FA0053C4DD /* ResizableLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD312D5727D759FA0053C4DD /* ResizableLottieView.swift */; };
+		AD312D5B27D75A2F0053C4DD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AD312D5A27D75A2F0053C4DD /* Lottie */; };
+		ADD4EBE927D696E0008A7B4C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EBE827D696E0008A7B4C /* Tests_iOS.swift */; };
+		ADD4EBEB27D696E0008A7B4C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EBEA27D696E0008A7B4C /* Tests_iOSLaunchTests.swift */; };
+		ADD4EBF527D696E0008A7B4C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EBF427D696E0008A7B4C /* Tests_macOS.swift */; };
+		ADD4EBF727D696E0008A7B4C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EBF627D696E0008A7B4C /* Tests_macOSLaunchTests.swift */; };
+		ADD4EBF827D696E0008A7B4C /* LiquidTransitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EBD027D696DF008A7B4C /* LiquidTransitionApp.swift */; };
+		ADD4EBF927D696E0008A7B4C /* LiquidTransitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EBD027D696DF008A7B4C /* LiquidTransitionApp.swift */; };
+		ADD4EBFA27D696E0008A7B4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EBD127D696DF008A7B4C /* ContentView.swift */; };
+		ADD4EBFB27D696E0008A7B4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4EBD127D696DF008A7B4C /* ContentView.swift */; };
+		ADD4EBFC27D696E0008A7B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD4EBD227D696E0008A7B4C /* Assets.xcassets */; };
+		ADD4EBFD27D696E0008A7B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD4EBD227D696E0008A7B4C /* Assets.xcassets */; };
+		ADD4EC0D27D696F9008A7B4C /* LiquidWave.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD4EC0C27D696F9008A7B4C /* LiquidWave.json */; };
+		ADD4EC0E27D696F9008A7B4C /* LiquidWave.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD4EC0C27D696F9008A7B4C /* LiquidWave.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADD4EBE527D696E0008A7B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD4EBCB27D696DF008A7B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD4EBD627D696E0008A7B4C;
+			remoteInfo = "LiquidTransition (iOS)";
+		};
+		ADD4EBF127D696E0008A7B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD4EBCB27D696DF008A7B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD4EBDC27D696E0008A7B4C;
+			remoteInfo = "LiquidTransition (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD312D5527D757020053C4DD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD312D5727D759FA0053C4DD /* ResizableLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableLottieView.swift; sourceTree = "<group>"; };
+		ADD4EBD027D696DF008A7B4C /* LiquidTransitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidTransitionApp.swift; sourceTree = "<group>"; };
+		ADD4EBD127D696DF008A7B4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADD4EBD227D696E0008A7B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD4EBD727D696E0008A7B4C /* LiquidTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD4EBDD27D696E0008A7B4C /* LiquidTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD4EBDF27D696E0008A7B4C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ADD4EBE427D696E0008A7B4C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD4EBE827D696E0008A7B4C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		ADD4EBEA27D696E0008A7B4C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADD4EBF027D696E0008A7B4C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD4EBF427D696E0008A7B4C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		ADD4EBF627D696E0008A7B4C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADD4EC0C27D696F9008A7B4C /* LiquidWave.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LiquidWave.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD4EBD427D696E0008A7B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD312D5B27D75A2F0053C4DD /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4EBDA27D696E0008A7B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4EBE127D696E0008A7B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4EBED27D696E0008A7B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD312D5427D756FD0053C4DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD312D5527D757020053C4DD /* Home.swift */,
+				AD312D5727D759FA0053C4DD /* ResizableLottieView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADD4EBCA27D696DF008A7B4C = {
+			isa = PBXGroup;
+			children = (
+				ADD4EBCF27D696DF008A7B4C /* Shared */,
+				ADD4EBDE27D696E0008A7B4C /* macOS */,
+				ADD4EBE727D696E0008A7B4C /* Tests iOS */,
+				ADD4EBF327D696E0008A7B4C /* Tests macOS */,
+				ADD4EBD827D696E0008A7B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD4EBCF27D696DF008A7B4C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD312D5427D756FD0053C4DD /* View */,
+				ADD4EC0C27D696F9008A7B4C /* LiquidWave.json */,
+				ADD4EBD027D696DF008A7B4C /* LiquidTransitionApp.swift */,
+				ADD4EBD127D696DF008A7B4C /* ContentView.swift */,
+				ADD4EBD227D696E0008A7B4C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ADD4EBD827D696E0008A7B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD4EBD727D696E0008A7B4C /* LiquidTransition.app */,
+				ADD4EBDD27D696E0008A7B4C /* LiquidTransition.app */,
+				ADD4EBE427D696E0008A7B4C /* Tests iOS.xctest */,
+				ADD4EBF027D696E0008A7B4C /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD4EBDE27D696E0008A7B4C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADD4EBDF27D696E0008A7B4C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		ADD4EBE727D696E0008A7B4C /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADD4EBE827D696E0008A7B4C /* Tests_iOS.swift */,
+				ADD4EBEA27D696E0008A7B4C /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		ADD4EBF327D696E0008A7B4C /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADD4EBF427D696E0008A7B4C /* Tests_macOS.swift */,
+				ADD4EBF627D696E0008A7B4C /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD4EBD627D696E0008A7B4C /* LiquidTransition (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD4EC0027D696E0008A7B4C /* Build configuration list for PBXNativeTarget "LiquidTransition (iOS)" */;
+			buildPhases = (
+				ADD4EBD327D696E0008A7B4C /* Sources */,
+				ADD4EBD427D696E0008A7B4C /* Frameworks */,
+				ADD4EBD527D696E0008A7B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiquidTransition (iOS)";
+			packageProductDependencies = (
+				AD312D5A27D75A2F0053C4DD /* Lottie */,
+			);
+			productName = "LiquidTransition (iOS)";
+			productReference = ADD4EBD727D696E0008A7B4C /* LiquidTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD4EBDC27D696E0008A7B4C /* LiquidTransition (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD4EC0327D696E0008A7B4C /* Build configuration list for PBXNativeTarget "LiquidTransition (macOS)" */;
+			buildPhases = (
+				ADD4EBD927D696E0008A7B4C /* Sources */,
+				ADD4EBDA27D696E0008A7B4C /* Frameworks */,
+				ADD4EBDB27D696E0008A7B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiquidTransition (macOS)";
+			productName = "LiquidTransition (macOS)";
+			productReference = ADD4EBDD27D696E0008A7B4C /* LiquidTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD4EBE327D696E0008A7B4C /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD4EC0627D696E0008A7B4C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				ADD4EBE027D696E0008A7B4C /* Sources */,
+				ADD4EBE127D696E0008A7B4C /* Frameworks */,
+				ADD4EBE227D696E0008A7B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD4EBE627D696E0008A7B4C /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = ADD4EBE427D696E0008A7B4C /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ADD4EBEF27D696E0008A7B4C /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD4EC0927D696E0008A7B4C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				ADD4EBEC27D696E0008A7B4C /* Sources */,
+				ADD4EBED27D696E0008A7B4C /* Frameworks */,
+				ADD4EBEE27D696E0008A7B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD4EBF227D696E0008A7B4C /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = ADD4EBF027D696E0008A7B4C /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD4EBCB27D696DF008A7B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ADD4EBD627D696E0008A7B4C = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					ADD4EBDC27D696E0008A7B4C = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					ADD4EBE327D696E0008A7B4C = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = ADD4EBD627D696E0008A7B4C;
+					};
+					ADD4EBEF27D696E0008A7B4C = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = ADD4EBDC27D696E0008A7B4C;
+					};
+				};
+			};
+			buildConfigurationList = ADD4EBCE27D696DF008A7B4C /* Build configuration list for PBXProject "LiquidTransition" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD4EBCA27D696DF008A7B4C;
+			packageReferences = (
+				AD312D5927D75A2F0053C4DD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = ADD4EBD827D696E0008A7B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD4EBD627D696E0008A7B4C /* LiquidTransition (iOS) */,
+				ADD4EBDC27D696E0008A7B4C /* LiquidTransition (macOS) */,
+				ADD4EBE327D696E0008A7B4C /* Tests iOS */,
+				ADD4EBEF27D696E0008A7B4C /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD4EBD527D696E0008A7B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD4EBFC27D696E0008A7B4C /* Assets.xcassets in Resources */,
+				ADD4EC0D27D696F9008A7B4C /* LiquidWave.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4EBDB27D696E0008A7B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD4EBFD27D696E0008A7B4C /* Assets.xcassets in Resources */,
+				ADD4EC0E27D696F9008A7B4C /* LiquidWave.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4EBE227D696E0008A7B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4EBEE27D696E0008A7B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD4EBD327D696E0008A7B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD4EBFA27D696E0008A7B4C /* ContentView.swift in Sources */,
+				AD312D5827D759FA0053C4DD /* ResizableLottieView.swift in Sources */,
+				AD312D5627D757020053C4DD /* Home.swift in Sources */,
+				ADD4EBF827D696E0008A7B4C /* LiquidTransitionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4EBD927D696E0008A7B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD4EBFB27D696E0008A7B4C /* ContentView.swift in Sources */,
+				ADD4EBF927D696E0008A7B4C /* LiquidTransitionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4EBE027D696E0008A7B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD4EBEB27D696E0008A7B4C /* Tests_iOSLaunchTests.swift in Sources */,
+				ADD4EBE927D696E0008A7B4C /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD4EBEC27D696E0008A7B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD4EBF727D696E0008A7B4C /* Tests_macOSLaunchTests.swift in Sources */,
+				ADD4EBF527D696E0008A7B4C /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD4EBE627D696E0008A7B4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD4EBD627D696E0008A7B4C /* LiquidTransition (iOS) */;
+			targetProxy = ADD4EBE527D696E0008A7B4C /* PBXContainerItemProxy */;
+		};
+		ADD4EBF227D696E0008A7B4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD4EBDC27D696E0008A7B4C /* LiquidTransition (macOS) */;
+			targetProxy = ADD4EBF127D696E0008A7B4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADD4EBFE27D696E0008A7B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADD4EBFF27D696E0008A7B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ADD4EC0127D696E0008A7B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LiquidTransition;
+				PRODUCT_NAME = LiquidTransition;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADD4EC0227D696E0008A7B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LiquidTransition;
+				PRODUCT_NAME = LiquidTransition;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD4EC0427D696E0008A7B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LiquidTransition;
+				PRODUCT_NAME = LiquidTransition;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ADD4EC0527D696E0008A7B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LiquidTransition;
+				PRODUCT_NAME = LiquidTransition;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ADD4EC0727D696E0008A7B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LiquidTransition (iOS)";
+			};
+			name = Debug;
+		};
+		ADD4EC0827D696E0008A7B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LiquidTransition (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD4EC0A27D696E0008A7B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LiquidTransition (macOS)";
+			};
+			name = Debug;
+		};
+		ADD4EC0B27D696E0008A7B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LiquidTransition (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD4EBCE27D696DF008A7B4C /* Build configuration list for PBXProject "LiquidTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD4EBFE27D696E0008A7B4C /* Debug */,
+				ADD4EBFF27D696E0008A7B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD4EC0027D696E0008A7B4C /* Build configuration list for PBXNativeTarget "LiquidTransition (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD4EC0127D696E0008A7B4C /* Debug */,
+				ADD4EC0227D696E0008A7B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD4EC0327D696E0008A7B4C /* Build configuration list for PBXNativeTarget "LiquidTransition (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD4EC0427D696E0008A7B4C /* Debug */,
+				ADD4EC0527D696E0008A7B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD4EC0627D696E0008A7B4C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD4EC0727D696E0008A7B4C /* Debug */,
+				ADD4EC0827D696E0008A7B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD4EC0927D696E0008A7B4C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD4EC0A27D696E0008A7B4C /* Debug */,
+				ADD4EC0B27D696E0008A7B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD312D5927D75A2F0053C4DD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD312D5A27D75A2F0053C4DD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD312D5927D75A2F0053C4DD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ADD4EBCB27D696DF008A7B4C /* Project object */;
+}

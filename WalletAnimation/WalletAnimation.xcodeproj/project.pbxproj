@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5BE50527C7BF34005E6B8C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BE50427C7BF34005E6B8C /* Tests_iOS.swift */; };
+		AD5BE50727C7BF34005E6B8C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BE50627C7BF34005E6B8C /* Tests_iOSLaunchTests.swift */; };
+		AD5BE51127C7BF34005E6B8C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BE51027C7BF34005E6B8C /* Tests_macOS.swift */; };
+		AD5BE51327C7BF34005E6B8C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BE51227C7BF34005E6B8C /* Tests_macOSLaunchTests.swift */; };
+		AD5BE51427C7BF34005E6B8C /* WalletAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BE4EC27C7BF33005E6B8C /* WalletAnimationApp.swift */; };
+		AD5BE51527C7BF34005E6B8C /* WalletAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BE4EC27C7BF33005E6B8C /* WalletAnimationApp.swift */; };
+		AD5BE51627C7BF34005E6B8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BE4ED27C7BF33005E6B8C /* ContentView.swift */; };
+		AD5BE51727C7BF34005E6B8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BE4ED27C7BF33005E6B8C /* ContentView.swift */; };
+		AD5BE51827C7BF34005E6B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5BE4EE27C7BF33005E6B8C /* Assets.xcassets */; };
+		AD5BE51927C7BF34005E6B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5BE4EE27C7BF33005E6B8C /* Assets.xcassets */; };
+		AD984C1627C815950053A6ED /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD984C1527C815950053A6ED /* Card.swift */; };
+		AD984C1827C815B70053A6ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD984C1727C815B70053A6ED /* Home.swift */; };
+		AD984C1A27C821010053A6ED /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD984C1927C821010053A6ED /* Expense.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD5BE50127C7BF34005E6B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5BE4E727C7BF33005E6B8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5BE4F227C7BF33005E6B8C;
+			remoteInfo = "WalletAnimation (iOS)";
+		};
+		AD5BE50D27C7BF34005E6B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5BE4E727C7BF33005E6B8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5BE4F827C7BF33005E6B8C;
+			remoteInfo = "WalletAnimation (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD5BE4EC27C7BF33005E6B8C /* WalletAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAnimationApp.swift; sourceTree = "<group>"; };
+		AD5BE4ED27C7BF33005E6B8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD5BE4EE27C7BF33005E6B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD5BE4F327C7BF33005E6B8C /* WalletAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5BE4F927C7BF33005E6B8C /* WalletAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5BE4FB27C7BF33005E6B8C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD5BE50027C7BF34005E6B8C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5BE50427C7BF34005E6B8C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD5BE50627C7BF34005E6B8C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD5BE50C27C7BF34005E6B8C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5BE51027C7BF34005E6B8C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD5BE51227C7BF34005E6B8C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD984C1527C815950053A6ED /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AD984C1727C815B70053A6ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD984C1927C821010053A6ED /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5BE4F027C7BF33005E6B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5BE4F627C7BF33005E6B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5BE4FD27C7BF34005E6B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5BE50927C7BF34005E6B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5BE4E627C7BF33005E6B8C = {
+			isa = PBXGroup;
+			children = (
+				AD5BE4EB27C7BF33005E6B8C /* Shared */,
+				AD5BE4FA27C7BF33005E6B8C /* macOS */,
+				AD5BE50327C7BF34005E6B8C /* Tests iOS */,
+				AD5BE50F27C7BF34005E6B8C /* Tests macOS */,
+				AD5BE4F427C7BF33005E6B8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5BE4EB27C7BF33005E6B8C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD984C1427C8158F0053A6ED /* Model */,
+				AD984C1327C815890053A6ED /* View */,
+				AD5BE4EC27C7BF33005E6B8C /* WalletAnimationApp.swift */,
+				AD5BE4ED27C7BF33005E6B8C /* ContentView.swift */,
+				AD5BE4EE27C7BF33005E6B8C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD5BE4F427C7BF33005E6B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5BE4F327C7BF33005E6B8C /* WalletAnimation.app */,
+				AD5BE4F927C7BF33005E6B8C /* WalletAnimation.app */,
+				AD5BE50027C7BF34005E6B8C /* Tests iOS.xctest */,
+				AD5BE50C27C7BF34005E6B8C /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5BE4FA27C7BF33005E6B8C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD5BE4FB27C7BF33005E6B8C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD5BE50327C7BF34005E6B8C /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD5BE50427C7BF34005E6B8C /* Tests_iOS.swift */,
+				AD5BE50627C7BF34005E6B8C /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD5BE50F27C7BF34005E6B8C /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD5BE51027C7BF34005E6B8C /* Tests_macOS.swift */,
+				AD5BE51227C7BF34005E6B8C /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AD984C1327C815890053A6ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD984C1727C815B70053A6ED /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD984C1427C8158F0053A6ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD984C1527C815950053A6ED /* Card.swift */,
+				AD984C1927C821010053A6ED /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5BE4F227C7BF33005E6B8C /* WalletAnimation (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5BE51C27C7BF34005E6B8C /* Build configuration list for PBXNativeTarget "WalletAnimation (iOS)" */;
+			buildPhases = (
+				AD5BE4EF27C7BF33005E6B8C /* Sources */,
+				AD5BE4F027C7BF33005E6B8C /* Frameworks */,
+				AD5BE4F127C7BF33005E6B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WalletAnimation (iOS)";
+			productName = "WalletAnimation (iOS)";
+			productReference = AD5BE4F327C7BF33005E6B8C /* WalletAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD5BE4F827C7BF33005E6B8C /* WalletAnimation (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5BE51F27C7BF34005E6B8C /* Build configuration list for PBXNativeTarget "WalletAnimation (macOS)" */;
+			buildPhases = (
+				AD5BE4F527C7BF33005E6B8C /* Sources */,
+				AD5BE4F627C7BF33005E6B8C /* Frameworks */,
+				AD5BE4F727C7BF33005E6B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WalletAnimation (macOS)";
+			productName = "WalletAnimation (macOS)";
+			productReference = AD5BE4F927C7BF33005E6B8C /* WalletAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD5BE4FF27C7BF34005E6B8C /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5BE52227C7BF34005E6B8C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD5BE4FC27C7BF34005E6B8C /* Sources */,
+				AD5BE4FD27C7BF34005E6B8C /* Frameworks */,
+				AD5BE4FE27C7BF34005E6B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5BE50227C7BF34005E6B8C /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD5BE50027C7BF34005E6B8C /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD5BE50B27C7BF34005E6B8C /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5BE52527C7BF34005E6B8C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD5BE50827C7BF34005E6B8C /* Sources */,
+				AD5BE50927C7BF34005E6B8C /* Frameworks */,
+				AD5BE50A27C7BF34005E6B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5BE50E27C7BF34005E6B8C /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD5BE50C27C7BF34005E6B8C /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5BE4E727C7BF33005E6B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AD5BE4F227C7BF33005E6B8C = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					AD5BE4F827C7BF33005E6B8C = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					AD5BE4FF27C7BF34005E6B8C = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = AD5BE4F227C7BF33005E6B8C;
+					};
+					AD5BE50B27C7BF34005E6B8C = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = AD5BE4F827C7BF33005E6B8C;
+					};
+				};
+			};
+			buildConfigurationList = AD5BE4EA27C7BF33005E6B8C /* Build configuration list for PBXProject "WalletAnimation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5BE4E627C7BF33005E6B8C;
+			productRefGroup = AD5BE4F427C7BF33005E6B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5BE4F227C7BF33005E6B8C /* WalletAnimation (iOS) */,
+				AD5BE4F827C7BF33005E6B8C /* WalletAnimation (macOS) */,
+				AD5BE4FF27C7BF34005E6B8C /* Tests iOS */,
+				AD5BE50B27C7BF34005E6B8C /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD5BE4F127C7BF33005E6B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5BE51827C7BF34005E6B8C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5BE4F727C7BF33005E6B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5BE51927C7BF34005E6B8C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5BE4FE27C7BF34005E6B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5BE50A27C7BF34005E6B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD5BE4EF27C7BF33005E6B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5BE51627C7BF34005E6B8C /* ContentView.swift in Sources */,
+				AD984C1627C815950053A6ED /* Card.swift in Sources */,
+				AD984C1827C815B70053A6ED /* Home.swift in Sources */,
+				AD5BE51427C7BF34005E6B8C /* WalletAnimationApp.swift in Sources */,
+				AD984C1A27C821010053A6ED /* Expense.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5BE4F527C7BF33005E6B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5BE51727C7BF34005E6B8C /* ContentView.swift in Sources */,
+				AD5BE51527C7BF34005E6B8C /* WalletAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5BE4FC27C7BF34005E6B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5BE50727C7BF34005E6B8C /* Tests_iOSLaunchTests.swift in Sources */,
+				AD5BE50527C7BF34005E6B8C /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5BE50827C7BF34005E6B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5BE51327C7BF34005E6B8C /* Tests_macOSLaunchTests.swift in Sources */,
+				AD5BE51127C7BF34005E6B8C /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD5BE50227C7BF34005E6B8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5BE4F227C7BF33005E6B8C /* WalletAnimation (iOS) */;
+			targetProxy = AD5BE50127C7BF34005E6B8C /* PBXContainerItemProxy */;
+		};
+		AD5BE50E27C7BF34005E6B8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5BE4F827C7BF33005E6B8C /* WalletAnimation (macOS) */;
+			targetProxy = AD5BE50D27C7BF34005E6B8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD5BE51A27C7BF34005E6B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD5BE51B27C7BF34005E6B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD5BE51D27C7BF34005E6B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.WalletAnimation;
+				PRODUCT_NAME = WalletAnimation;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD5BE51E27C7BF34005E6B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.WalletAnimation;
+				PRODUCT_NAME = WalletAnimation;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD5BE52027C7BF34005E6B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.WalletAnimation;
+				PRODUCT_NAME = WalletAnimation;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD5BE52127C7BF34005E6B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.WalletAnimation;
+				PRODUCT_NAME = WalletAnimation;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD5BE52327C7BF34005E6B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WalletAnimation (iOS)";
+			};
+			name = Debug;
+		};
+		AD5BE52427C7BF34005E6B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WalletAnimation (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD5BE52627C7BF34005E6B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WalletAnimation (macOS)";
+			};
+			name = Debug;
+		};
+		AD5BE52727C7BF34005E6B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WalletAnimation (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD5BE4EA27C7BF33005E6B8C /* Build configuration list for PBXProject "WalletAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5BE51A27C7BF34005E6B8C /* Debug */,
+				AD5BE51B27C7BF34005E6B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5BE51C27C7BF34005E6B8C /* Build configuration list for PBXNativeTarget "WalletAnimation (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5BE51D27C7BF34005E6B8C /* Debug */,
+				AD5BE51E27C7BF34005E6B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5BE51F27C7BF34005E6B8C /* Build configuration list for PBXNativeTarget "WalletAnimation (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5BE52027C7BF34005E6B8C /* Debug */,
+				AD5BE52127C7BF34005E6B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5BE52227C7BF34005E6B8C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5BE52327C7BF34005E6B8C /* Debug */,
+				AD5BE52427C7BF34005E6B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5BE52527C7BF34005E6B8C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5BE52627C7BF34005E6B8C /* Debug */,
+				AD5BE52727C7BF34005E6B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5BE4E727C7BF33005E6B8C /* Project object */;
+}

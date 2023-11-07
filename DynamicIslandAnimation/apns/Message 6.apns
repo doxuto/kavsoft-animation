@@ -1,0 +1,10 @@
+{
+    "aps" : {
+        "alert" : {
+            "title" : "Test 2",
+            "body" : "In App Notification Using Dynamic Island !!!"
+        },
+        "badge" : 0
+    },
+    "Simulator Target Bundle": "com.kavsoft.DynamicIslandAnimation"
+}

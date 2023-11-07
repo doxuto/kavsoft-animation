@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD7D1F5B27319D6200CD9F02 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D1F5A27319D6200CD9F02 /* Tests_iOS.swift */; };
+		AD7D1F5D27319D6200CD9F02 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D1F5C27319D6200CD9F02 /* Tests_iOSLaunchTests.swift */; };
+		AD7D1F6727319D6200CD9F02 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D1F6627319D6200CD9F02 /* Tests_macOS.swift */; };
+		AD7D1F6927319D6200CD9F02 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D1F6827319D6200CD9F02 /* Tests_macOSLaunchTests.swift */; };
+		AD7D1F6A27319D6200CD9F02 /* BarGraphGesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D1F4227319D6100CD9F02 /* BarGraphGesturesApp.swift */; };
+		AD7D1F6B27319D6200CD9F02 /* BarGraphGesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D1F4227319D6100CD9F02 /* BarGraphGesturesApp.swift */; };
+		AD7D1F6C27319D6200CD9F02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D1F4327319D6100CD9F02 /* ContentView.swift */; };
+		AD7D1F6D27319D6200CD9F02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7D1F4327319D6100CD9F02 /* ContentView.swift */; };
+		AD7D1F6E27319D6200CD9F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7D1F4427319D6200CD9F02 /* Assets.xcassets */; };
+		AD7D1F6F27319D6200CD9F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7D1F4427319D6200CD9F02 /* Assets.xcassets */; };
+		ADC291032731B6E00071C1D0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC291022731B6E00071C1D0 /* Download.swift */; };
+		ADC291052731B7070071C1D0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC291042731B7070071C1D0 /* Home.swift */; };
+		ADC291072731B92A0071C1D0 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC291062731B92A0071C1D0 /* BarGraph.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD7D1F5727319D6200CD9F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7D1F3D27319D6100CD9F02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7D1F4827319D6200CD9F02;
+			remoteInfo = "BarGraphGestures (iOS)";
+		};
+		AD7D1F6327319D6200CD9F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7D1F3D27319D6100CD9F02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7D1F4E27319D6200CD9F02;
+			remoteInfo = "BarGraphGestures (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD7D1F4227319D6100CD9F02 /* BarGraphGesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphGesturesApp.swift; sourceTree = "<group>"; };
+		AD7D1F4327319D6100CD9F02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD7D1F4427319D6200CD9F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7D1F4927319D6200CD9F02 /* BarGraphGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarGraphGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D1F4F27319D6200CD9F02 /* BarGraphGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarGraphGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D1F5127319D6200CD9F02 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD7D1F5627319D6200CD9F02 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D1F5A27319D6200CD9F02 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD7D1F5C27319D6200CD9F02 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD7D1F6227319D6200CD9F02 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D1F6627319D6200CD9F02 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD7D1F6827319D6200CD9F02 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADC291022731B6E00071C1D0 /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		ADC291042731B7070071C1D0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ADC291062731B92A0071C1D0 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD7D1F4627319D6200CD9F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D1F4C27319D6200CD9F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D1F5327319D6200CD9F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D1F5F27319D6200CD9F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD7D1F3C27319D6100CD9F02 = {
+			isa = PBXGroup;
+			children = (
+				AD7D1F4127319D6100CD9F02 /* Shared */,
+				AD7D1F5027319D6200CD9F02 /* macOS */,
+				AD7D1F5927319D6200CD9F02 /* Tests iOS */,
+				AD7D1F6527319D6200CD9F02 /* Tests macOS */,
+				AD7D1F4A27319D6200CD9F02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD7D1F4127319D6100CD9F02 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ADC291012731B6DA0071C1D0 /* View */,
+				ADC291002731B6D70071C1D0 /* Model */,
+				AD7D1F4227319D6100CD9F02 /* BarGraphGesturesApp.swift */,
+				AD7D1F4327319D6100CD9F02 /* ContentView.swift */,
+				AD7D1F4427319D6200CD9F02 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD7D1F4A27319D6200CD9F02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D1F4927319D6200CD9F02 /* BarGraphGestures.app */,
+				AD7D1F4F27319D6200CD9F02 /* BarGraphGestures.app */,
+				AD7D1F5627319D6200CD9F02 /* Tests iOS.xctest */,
+				AD7D1F6227319D6200CD9F02 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7D1F5027319D6200CD9F02 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D1F5127319D6200CD9F02 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD7D1F5927319D6200CD9F02 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D1F5A27319D6200CD9F02 /* Tests_iOS.swift */,
+				AD7D1F5C27319D6200CD9F02 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD7D1F6527319D6200CD9F02 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D1F6627319D6200CD9F02 /* Tests_macOS.swift */,
+				AD7D1F6827319D6200CD9F02 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		ADC291002731B6D70071C1D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADC291022731B6E00071C1D0 /* Download.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADC291012731B6DA0071C1D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADC291042731B7070071C1D0 /* Home.swift */,
+				ADC291062731B92A0071C1D0 /* BarGraph.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD7D1F4827319D6200CD9F02 /* BarGraphGestures (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D1F7227319D6200CD9F02 /* Build configuration list for PBXNativeTarget "BarGraphGestures (iOS)" */;
+			buildPhases = (
+				AD7D1F4527319D6200CD9F02 /* Sources */,
+				AD7D1F4627319D6200CD9F02 /* Frameworks */,
+				AD7D1F4727319D6200CD9F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarGraphGestures (iOS)";
+			productName = "BarGraphGestures (iOS)";
+			productReference = AD7D1F4927319D6200CD9F02 /* BarGraphGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD7D1F4E27319D6200CD9F02 /* BarGraphGestures (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D1F7527319D6200CD9F02 /* Build configuration list for PBXNativeTarget "BarGraphGestures (macOS)" */;
+			buildPhases = (
+				AD7D1F4B27319D6200CD9F02 /* Sources */,
+				AD7D1F4C27319D6200CD9F02 /* Frameworks */,
+				AD7D1F4D27319D6200CD9F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarGraphGestures (macOS)";
+			productName = "BarGraphGestures (macOS)";
+			productReference = AD7D1F4F27319D6200CD9F02 /* BarGraphGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD7D1F5527319D6200CD9F02 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D1F7827319D6200CD9F02 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD7D1F5227319D6200CD9F02 /* Sources */,
+				AD7D1F5327319D6200CD9F02 /* Frameworks */,
+				AD7D1F5427319D6200CD9F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7D1F5827319D6200CD9F02 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD7D1F5627319D6200CD9F02 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD7D1F6127319D6200CD9F02 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D1F7B27319D6200CD9F02 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD7D1F5E27319D6200CD9F02 /* Sources */,
+				AD7D1F5F27319D6200CD9F02 /* Frameworks */,
+				AD7D1F6027319D6200CD9F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7D1F6427319D6200CD9F02 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD7D1F6227319D6200CD9F02 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD7D1F3D27319D6100CD9F02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AD7D1F4827319D6200CD9F02 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AD7D1F4E27319D6200CD9F02 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AD7D1F5527319D6200CD9F02 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AD7D1F4827319D6200CD9F02;
+					};
+					AD7D1F6127319D6200CD9F02 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AD7D1F4E27319D6200CD9F02;
+					};
+				};
+			};
+			buildConfigurationList = AD7D1F4027319D6100CD9F02 /* Build configuration list for PBXProject "BarGraphGestures" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD7D1F3C27319D6100CD9F02;
+			productRefGroup = AD7D1F4A27319D6200CD9F02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD7D1F4827319D6200CD9F02 /* BarGraphGestures (iOS) */,
+				AD7D1F4E27319D6200CD9F02 /* BarGraphGestures (macOS) */,
+				AD7D1F5527319D6200CD9F02 /* Tests iOS */,
+				AD7D1F6127319D6200CD9F02 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD7D1F4727319D6200CD9F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D1F6E27319D6200CD9F02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D1F4D27319D6200CD9F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D1F6F27319D6200CD9F02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D1F5427319D6200CD9F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D1F6027319D6200CD9F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD7D1F4527319D6200CD9F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC291072731B92A0071C1D0 /* BarGraph.swift in Sources */,
+				ADC291032731B6E00071C1D0 /* Download.swift in Sources */,
+				AD7D1F6C27319D6200CD9F02 /* ContentView.swift in Sources */,
+				ADC291052731B7070071C1D0 /* Home.swift in Sources */,
+				AD7D1F6A27319D6200CD9F02 /* BarGraphGesturesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D1F4B27319D6200CD9F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D1F6D27319D6200CD9F02 /* ContentView.swift in Sources */,
+				AD7D1F6B27319D6200CD9F02 /* BarGraphGesturesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D1F5227319D6200CD9F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D1F5D27319D6200CD9F02 /* Tests_iOSLaunchTests.swift in Sources */,
+				AD7D1F5B27319D6200CD9F02 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D1F5E27319D6200CD9F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D1F6927319D6200CD9F02 /* Tests_macOSLaunchTests.swift in Sources */,
+				AD7D1F6727319D6200CD9F02 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD7D1F5827319D6200CD9F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7D1F4827319D6200CD9F02 /* BarGraphGestures (iOS) */;
+			targetProxy = AD7D1F5727319D6200CD9F02 /* PBXContainerItemProxy */;
+		};
+		AD7D1F6427319D6200CD9F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7D1F4E27319D6200CD9F02 /* BarGraphGestures (macOS) */;
+			targetProxy = AD7D1F6327319D6200CD9F02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD7D1F7027319D6200CD9F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD7D1F7127319D6200CD9F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD7D1F7327319D6200CD9F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.BarGraphGestures;
+				PRODUCT_NAME = BarGraphGestures;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD7D1F7427319D6200CD9F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.BarGraphGestures;
+				PRODUCT_NAME = BarGraphGestures;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD7D1F7627319D6200CD9F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.BarGraphGestures;
+				PRODUCT_NAME = BarGraphGestures;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD7D1F7727319D6200CD9F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.BarGraphGestures;
+				PRODUCT_NAME = BarGraphGestures;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD7D1F7927319D6200CD9F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BarGraphGestures (iOS)";
+			};
+			name = Debug;
+		};
+		AD7D1F7A27319D6200CD9F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BarGraphGestures (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD7D1F7C27319D6200CD9F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BarGraphGestures (macOS)";
+			};
+			name = Debug;
+		};
+		AD7D1F7D27319D6200CD9F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BarGraphGestures (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD7D1F4027319D6100CD9F02 /* Build configuration list for PBXProject "BarGraphGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D1F7027319D6200CD9F02 /* Debug */,
+				AD7D1F7127319D6200CD9F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7D1F7227319D6200CD9F02 /* Build configuration list for PBXNativeTarget "BarGraphGestures (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D1F7327319D6200CD9F02 /* Debug */,
+				AD7D1F7427319D6200CD9F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7D1F7527319D6200CD9F02 /* Build configuration list for PBXNativeTarget "BarGraphGestures (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D1F7627319D6200CD9F02 /* Debug */,
+				AD7D1F7727319D6200CD9F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7D1F7827319D6200CD9F02 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D1F7927319D6200CD9F02 /* Debug */,
+				AD7D1F7A27319D6200CD9F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7D1F7B27319D6200CD9F02 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D1F7C27319D6200CD9F02 /* Debug */,
+				AD7D1F7D27319D6200CD9F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD7D1F3D27319D6100CD9F02 /* Project object */;
+}

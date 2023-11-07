@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD12788027C28D200027C5EA /* VideoCoverScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12787F27C28D200027C5EA /* VideoCoverScroller.swift */; };
+		AD12788227C28D310027C5EA /* PreviewPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12788127C28D310027C5EA /* PreviewPlayer.swift */; };
+		ADD5657E27C2238F00716F1B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5657D27C2238F00716F1B /* Tests_iOS.swift */; };
+		ADD5658027C2238F00716F1B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5657F27C2238F00716F1B /* Tests_iOSLaunchTests.swift */; };
+		ADD5658A27C2238F00716F1B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5658927C2238F00716F1B /* Tests_macOS.swift */; };
+		ADD5658C27C2238F00716F1B /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5658B27C2238F00716F1B /* Tests_macOSLaunchTests.swift */; };
+		ADD5658D27C2238F00716F1B /* ThumbnailVideoScrollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5656527C2238F00716F1B /* ThumbnailVideoScrollerApp.swift */; };
+		ADD5658E27C2238F00716F1B /* ThumbnailVideoScrollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5656527C2238F00716F1B /* ThumbnailVideoScrollerApp.swift */; };
+		ADD5658F27C2238F00716F1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5656627C2238F00716F1B /* ContentView.swift */; };
+		ADD5659027C2238F00716F1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5656627C2238F00716F1B /* ContentView.swift */; };
+		ADD5659127C2238F00716F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD5656727C2238F00716F1B /* Assets.xcassets */; };
+		ADD5659227C2238F00716F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD5656727C2238F00716F1B /* Assets.xcassets */; };
+		ADE26DC027C2570800CB12EC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE26DBF27C2570800CB12EC /* Home.swift */; };
+		ADE26DC227C266A500CB12EC /* Test2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADE26DC127C266A500CB12EC /* Test2.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADD5657A27C2238F00716F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD5656027C2238F00716F1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD5656B27C2238F00716F1B;
+			remoteInfo = "ThumbnailVideoScroller (iOS)";
+		};
+		ADD5658627C2238F00716F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD5656027C2238F00716F1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD5657127C2238F00716F1B;
+			remoteInfo = "ThumbnailVideoScroller (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD12787F27C28D200027C5EA /* VideoCoverScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCoverScroller.swift; sourceTree = "<group>"; };
+		AD12788127C28D310027C5EA /* PreviewPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPlayer.swift; sourceTree = "<group>"; };
+		ADD5656527C2238F00716F1B /* ThumbnailVideoScrollerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailVideoScrollerApp.swift; sourceTree = "<group>"; };
+		ADD5656627C2238F00716F1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADD5656727C2238F00716F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD5656C27C2238F00716F1B /* ThumbnailVideoScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThumbnailVideoScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD5657227C2238F00716F1B /* ThumbnailVideoScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThumbnailVideoScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD5657427C2238F00716F1B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ADD5657927C2238F00716F1B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD5657D27C2238F00716F1B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		ADD5657F27C2238F00716F1B /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADD5658527C2238F00716F1B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD5658927C2238F00716F1B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		ADD5658B27C2238F00716F1B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADE26DBF27C2570800CB12EC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ADE26DC127C266A500CB12EC /* Test2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test2.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD5656927C2238F00716F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD5656F27C2238F00716F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD5657627C2238F00716F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD5658227C2238F00716F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADD5655F27C2238F00716F1B = {
+			isa = PBXGroup;
+			children = (
+				ADE26DC127C266A500CB12EC /* Test2.mp4 */,
+				ADD5656427C2238F00716F1B /* Shared */,
+				ADD5657327C2238F00716F1B /* macOS */,
+				ADD5657C27C2238F00716F1B /* Tests iOS */,
+				ADD5658827C2238F00716F1B /* Tests macOS */,
+				ADD5656D27C2238F00716F1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD5656427C2238F00716F1B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ADE26DBE27C2570300CB12EC /* View */,
+				ADD5656527C2238F00716F1B /* ThumbnailVideoScrollerApp.swift */,
+				ADD5656627C2238F00716F1B /* ContentView.swift */,
+				ADD5656727C2238F00716F1B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ADD5656D27C2238F00716F1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD5656C27C2238F00716F1B /* ThumbnailVideoScroller.app */,
+				ADD5657227C2238F00716F1B /* ThumbnailVideoScroller.app */,
+				ADD5657927C2238F00716F1B /* Tests iOS.xctest */,
+				ADD5658527C2238F00716F1B /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD5657327C2238F00716F1B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADD5657427C2238F00716F1B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		ADD5657C27C2238F00716F1B /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADD5657D27C2238F00716F1B /* Tests_iOS.swift */,
+				ADD5657F27C2238F00716F1B /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		ADD5658827C2238F00716F1B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADD5658927C2238F00716F1B /* Tests_macOS.swift */,
+				ADD5658B27C2238F00716F1B /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		ADE26DBE27C2570300CB12EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADE26DBF27C2570800CB12EC /* Home.swift */,
+				AD12787F27C28D200027C5EA /* VideoCoverScroller.swift */,
+				AD12788127C28D310027C5EA /* PreviewPlayer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD5656B27C2238F00716F1B /* ThumbnailVideoScroller (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD5659527C2238F00716F1B /* Build configuration list for PBXNativeTarget "ThumbnailVideoScroller (iOS)" */;
+			buildPhases = (
+				ADD5656827C2238F00716F1B /* Sources */,
+				ADD5656927C2238F00716F1B /* Frameworks */,
+				ADD5656A27C2238F00716F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ThumbnailVideoScroller (iOS)";
+			productName = "ThumbnailVideoScroller (iOS)";
+			productReference = ADD5656C27C2238F00716F1B /* ThumbnailVideoScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD5657127C2238F00716F1B /* ThumbnailVideoScroller (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD5659827C2238F00716F1B /* Build configuration list for PBXNativeTarget "ThumbnailVideoScroller (macOS)" */;
+			buildPhases = (
+				ADD5656E27C2238F00716F1B /* Sources */,
+				ADD5656F27C2238F00716F1B /* Frameworks */,
+				ADD5657027C2238F00716F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ThumbnailVideoScroller (macOS)";
+			productName = "ThumbnailVideoScroller (macOS)";
+			productReference = ADD5657227C2238F00716F1B /* ThumbnailVideoScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD5657827C2238F00716F1B /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD5659B27C2238F00716F1B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				ADD5657527C2238F00716F1B /* Sources */,
+				ADD5657627C2238F00716F1B /* Frameworks */,
+				ADD5657727C2238F00716F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD5657B27C2238F00716F1B /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = ADD5657927C2238F00716F1B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ADD5658427C2238F00716F1B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD5659E27C2238F00716F1B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				ADD5658127C2238F00716F1B /* Sources */,
+				ADD5658227C2238F00716F1B /* Frameworks */,
+				ADD5658327C2238F00716F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD5658727C2238F00716F1B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = ADD5658527C2238F00716F1B /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD5656027C2238F00716F1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ADD5656B27C2238F00716F1B = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					ADD5657127C2238F00716F1B = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					ADD5657827C2238F00716F1B = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = ADD5656B27C2238F00716F1B;
+					};
+					ADD5658427C2238F00716F1B = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = ADD5657127C2238F00716F1B;
+					};
+				};
+			};
+			buildConfigurationList = ADD5656327C2238F00716F1B /* Build configuration list for PBXProject "ThumbnailVideoScroller" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD5655F27C2238F00716F1B;
+			productRefGroup = ADD5656D27C2238F00716F1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD5656B27C2238F00716F1B /* ThumbnailVideoScroller (iOS) */,
+				ADD5657127C2238F00716F1B /* ThumbnailVideoScroller (macOS) */,
+				ADD5657827C2238F00716F1B /* Tests iOS */,
+				ADD5658427C2238F00716F1B /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD5656A27C2238F00716F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE26DC227C266A500CB12EC /* Test2.mp4 in Resources */,
+				ADD5659127C2238F00716F1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD5657027C2238F00716F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD5659227C2238F00716F1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD5657727C2238F00716F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD5658327C2238F00716F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD5656827C2238F00716F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD5658F27C2238F00716F1B /* ContentView.swift in Sources */,
+				ADE26DC027C2570800CB12EC /* Home.swift in Sources */,
+				ADD5658D27C2238F00716F1B /* ThumbnailVideoScrollerApp.swift in Sources */,
+				AD12788027C28D200027C5EA /* VideoCoverScroller.swift in Sources */,
+				AD12788227C28D310027C5EA /* PreviewPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD5656E27C2238F00716F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD5659027C2238F00716F1B /* ContentView.swift in Sources */,
+				ADD5658E27C2238F00716F1B /* ThumbnailVideoScrollerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD5657527C2238F00716F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD5658027C2238F00716F1B /* Tests_iOSLaunchTests.swift in Sources */,
+				ADD5657E27C2238F00716F1B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD5658127C2238F00716F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD5658C27C2238F00716F1B /* Tests_macOSLaunchTests.swift in Sources */,
+				ADD5658A27C2238F00716F1B /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD5657B27C2238F00716F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD5656B27C2238F00716F1B /* ThumbnailVideoScroller (iOS) */;
+			targetProxy = ADD5657A27C2238F00716F1B /* PBXContainerItemProxy */;
+		};
+		ADD5658727C2238F00716F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD5657127C2238F00716F1B /* ThumbnailVideoScroller (macOS) */;
+			targetProxy = ADD5658627C2238F00716F1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADD5659327C2238F00716F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADD5659427C2238F00716F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ADD5659627C2238F00716F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ThumbnailVideoScroller;
+				PRODUCT_NAME = ThumbnailVideoScroller;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADD5659727C2238F00716F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ThumbnailVideoScroller;
+				PRODUCT_NAME = ThumbnailVideoScroller;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD5659927C2238F00716F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ThumbnailVideoScroller;
+				PRODUCT_NAME = ThumbnailVideoScroller;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ADD5659A27C2238F00716F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ThumbnailVideoScroller;
+				PRODUCT_NAME = ThumbnailVideoScroller;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ADD5659C27C2238F00716F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ThumbnailVideoScroller (iOS)";
+			};
+			name = Debug;
+		};
+		ADD5659D27C2238F00716F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ThumbnailVideoScroller (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD5659F27C2238F00716F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ThumbnailVideoScroller (macOS)";
+			};
+			name = Debug;
+		};
+		ADD565A027C2238F00716F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ThumbnailVideoScroller (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD5656327C2238F00716F1B /* Build configuration list for PBXProject "ThumbnailVideoScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD5659327C2238F00716F1B /* Debug */,
+				ADD5659427C2238F00716F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD5659527C2238F00716F1B /* Build configuration list for PBXNativeTarget "ThumbnailVideoScroller (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD5659627C2238F00716F1B /* Debug */,
+				ADD5659727C2238F00716F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD5659827C2238F00716F1B /* Build configuration list for PBXNativeTarget "ThumbnailVideoScroller (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD5659927C2238F00716F1B /* Debug */,
+				ADD5659A27C2238F00716F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD5659B27C2238F00716F1B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD5659C27C2238F00716F1B /* Debug */,
+				ADD5659D27C2238F00716F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD5659E27C2238F00716F1B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD5659F27C2238F00716F1B /* Debug */,
+				ADD565A027C2238F00716F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADD5656027C2238F00716F1B /* Project object */;
+}

@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD74672427BD92EF00524C1C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD74672327BD92EF00524C1C /* Tests_iOS.swift */; };
+		AD74672627BD92EF00524C1C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD74672527BD92EF00524C1C /* Tests_iOSLaunchTests.swift */; };
+		AD74673027BD92EF00524C1C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD74672F27BD92EF00524C1C /* Tests_macOS.swift */; };
+		AD74673227BD92EF00524C1C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD74673127BD92EF00524C1C /* Tests_macOSLaunchTests.swift */; };
+		AD74673327BD92EF00524C1C /* AppleWalletScrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD74670B27BD92EE00524C1C /* AppleWalletScrollApp.swift */; };
+		AD74673427BD92EF00524C1C /* AppleWalletScrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD74670B27BD92EE00524C1C /* AppleWalletScrollApp.swift */; };
+		AD74673527BD92EF00524C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD74670C27BD92EE00524C1C /* ContentView.swift */; };
+		AD74673627BD92EF00524C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD74670C27BD92EE00524C1C /* ContentView.swift */; };
+		AD74673727BD92EF00524C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD74670D27BD92EF00524C1C /* Assets.xcassets */; };
+		AD74673827BD92EF00524C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD74670D27BD92EF00524C1C /* Assets.xcassets */; };
+		ADD6F3E027BE908D004C9CC6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6F3DF27BE908D004C9CC6 /* Home.swift */; };
+		ADD6F3E227BE9373004C9CC6 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6F3E127BE9373004C9CC6 /* OffsetModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD74672027BD92EF00524C1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD74670627BD92EE00524C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD74671127BD92EF00524C1C;
+			remoteInfo = "AppleWalletScroll (iOS)";
+		};
+		AD74672C27BD92EF00524C1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD74670627BD92EE00524C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD74671727BD92EF00524C1C;
+			remoteInfo = "AppleWalletScroll (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD74670B27BD92EE00524C1C /* AppleWalletScrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWalletScrollApp.swift; sourceTree = "<group>"; };
+		AD74670C27BD92EE00524C1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD74670D27BD92EF00524C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD74671227BD92EF00524C1C /* AppleWalletScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWalletScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD74671827BD92EF00524C1C /* AppleWalletScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWalletScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD74671A27BD92EF00524C1C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD74671F27BD92EF00524C1C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD74672327BD92EF00524C1C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD74672527BD92EF00524C1C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD74672B27BD92EF00524C1C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD74672F27BD92EF00524C1C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD74673127BD92EF00524C1C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADD6F3DF27BE908D004C9CC6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ADD6F3E127BE9373004C9CC6 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD74670F27BD92EF00524C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74671527BD92EF00524C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74671C27BD92EF00524C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74672827BD92EF00524C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD74670527BD92EE00524C1C = {
+			isa = PBXGroup;
+			children = (
+				AD74670A27BD92EE00524C1C /* Shared */,
+				AD74671927BD92EF00524C1C /* macOS */,
+				AD74672227BD92EF00524C1C /* Tests iOS */,
+				AD74672E27BD92EF00524C1C /* Tests macOS */,
+				AD74671327BD92EF00524C1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD74670A27BD92EE00524C1C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6F3DE27BE9088004C9CC6 /* View */,
+				AD74670B27BD92EE00524C1C /* AppleWalletScrollApp.swift */,
+				AD74670C27BD92EE00524C1C /* ContentView.swift */,
+				AD74670D27BD92EF00524C1C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD74671327BD92EF00524C1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD74671227BD92EF00524C1C /* AppleWalletScroll.app */,
+				AD74671827BD92EF00524C1C /* AppleWalletScroll.app */,
+				AD74671F27BD92EF00524C1C /* Tests iOS.xctest */,
+				AD74672B27BD92EF00524C1C /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD74671927BD92EF00524C1C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD74671A27BD92EF00524C1C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD74672227BD92EF00524C1C /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD74672327BD92EF00524C1C /* Tests_iOS.swift */,
+				AD74672527BD92EF00524C1C /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD74672E27BD92EF00524C1C /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD74672F27BD92EF00524C1C /* Tests_macOS.swift */,
+				AD74673127BD92EF00524C1C /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		ADD6F3DE27BE9088004C9CC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6F3DF27BE908D004C9CC6 /* Home.swift */,
+				ADD6F3E127BE9373004C9CC6 /* OffsetModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD74671127BD92EF00524C1C /* AppleWalletScroll (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD74673B27BD92EF00524C1C /* Build configuration list for PBXNativeTarget "AppleWalletScroll (iOS)" */;
+			buildPhases = (
+				AD74670E27BD92EF00524C1C /* Sources */,
+				AD74670F27BD92EF00524C1C /* Frameworks */,
+				AD74671027BD92EF00524C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWalletScroll (iOS)";
+			productName = "AppleWalletScroll (iOS)";
+			productReference = AD74671227BD92EF00524C1C /* AppleWalletScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD74671727BD92EF00524C1C /* AppleWalletScroll (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD74673E27BD92EF00524C1C /* Build configuration list for PBXNativeTarget "AppleWalletScroll (macOS)" */;
+			buildPhases = (
+				AD74671427BD92EF00524C1C /* Sources */,
+				AD74671527BD92EF00524C1C /* Frameworks */,
+				AD74671627BD92EF00524C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWalletScroll (macOS)";
+			productName = "AppleWalletScroll (macOS)";
+			productReference = AD74671827BD92EF00524C1C /* AppleWalletScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD74671E27BD92EF00524C1C /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD74674127BD92EF00524C1C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD74671B27BD92EF00524C1C /* Sources */,
+				AD74671C27BD92EF00524C1C /* Frameworks */,
+				AD74671D27BD92EF00524C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD74672127BD92EF00524C1C /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD74671F27BD92EF00524C1C /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD74672A27BD92EF00524C1C /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD74674427BD92EF00524C1C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD74672727BD92EF00524C1C /* Sources */,
+				AD74672827BD92EF00524C1C /* Frameworks */,
+				AD74672927BD92EF00524C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD74672D27BD92EF00524C1C /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD74672B27BD92EF00524C1C /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD74670627BD92EE00524C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AD74671127BD92EF00524C1C = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					AD74671727BD92EF00524C1C = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					AD74671E27BD92EF00524C1C = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = AD74671127BD92EF00524C1C;
+					};
+					AD74672A27BD92EF00524C1C = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = AD74671727BD92EF00524C1C;
+					};
+				};
+			};
+			buildConfigurationList = AD74670927BD92EE00524C1C /* Build configuration list for PBXProject "AppleWalletScroll" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD74670527BD92EE00524C1C;
+			productRefGroup = AD74671327BD92EF00524C1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD74671127BD92EF00524C1C /* AppleWalletScroll (iOS) */,
+				AD74671727BD92EF00524C1C /* AppleWalletScroll (macOS) */,
+				AD74671E27BD92EF00524C1C /* Tests iOS */,
+				AD74672A27BD92EF00524C1C /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD74671027BD92EF00524C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74673727BD92EF00524C1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74671627BD92EF00524C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74673827BD92EF00524C1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74671D27BD92EF00524C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74672927BD92EF00524C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD74670E27BD92EF00524C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74673527BD92EF00524C1C /* ContentView.swift in Sources */,
+				ADD6F3E227BE9373004C9CC6 /* OffsetModifier.swift in Sources */,
+				ADD6F3E027BE908D004C9CC6 /* Home.swift in Sources */,
+				AD74673327BD92EF00524C1C /* AppleWalletScrollApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74671427BD92EF00524C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74673627BD92EF00524C1C /* ContentView.swift in Sources */,
+				AD74673427BD92EF00524C1C /* AppleWalletScrollApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74671B27BD92EF00524C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74672627BD92EF00524C1C /* Tests_iOSLaunchTests.swift in Sources */,
+				AD74672427BD92EF00524C1C /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD74672727BD92EF00524C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74673227BD92EF00524C1C /* Tests_macOSLaunchTests.swift in Sources */,
+				AD74673027BD92EF00524C1C /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD74672127BD92EF00524C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD74671127BD92EF00524C1C /* AppleWalletScroll (iOS) */;
+			targetProxy = AD74672027BD92EF00524C1C /* PBXContainerItemProxy */;
+		};
+		AD74672D27BD92EF00524C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD74671727BD92EF00524C1C /* AppleWalletScroll (macOS) */;
+			targetProxy = AD74672C27BD92EF00524C1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD74673927BD92EF00524C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD74673A27BD92EF00524C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD74673C27BD92EF00524C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.AppleWalletScroll;
+				PRODUCT_NAME = AppleWalletScroll;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD74673D27BD92EF00524C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.AppleWalletScroll;
+				PRODUCT_NAME = AppleWalletScroll;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD74673F27BD92EF00524C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.AppleWalletScroll;
+				PRODUCT_NAME = AppleWalletScroll;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD74674027BD92EF00524C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.AppleWalletScroll;
+				PRODUCT_NAME = AppleWalletScroll;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD74674227BD92EF00524C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppleWalletScroll (iOS)";
+			};
+			name = Debug;
+		};
+		AD74674327BD92EF00524C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppleWalletScroll (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD74674527BD92EF00524C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AppleWalletScroll (macOS)";
+			};
+			name = Debug;
+		};
+		AD74674627BD92EF00524C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AppleWalletScroll (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD74670927BD92EE00524C1C /* Build configuration list for PBXProject "AppleWalletScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD74673927BD92EF00524C1C /* Debug */,
+				AD74673A27BD92EF00524C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD74673B27BD92EF00524C1C /* Build configuration list for PBXNativeTarget "AppleWalletScroll (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD74673C27BD92EF00524C1C /* Debug */,
+				AD74673D27BD92EF00524C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD74673E27BD92EF00524C1C /* Build configuration list for PBXNativeTarget "AppleWalletScroll (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD74673F27BD92EF00524C1C /* Debug */,
+				AD74674027BD92EF00524C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD74674127BD92EF00524C1C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD74674227BD92EF00524C1C /* Debug */,
+				AD74674327BD92EF00524C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD74674427BD92EF00524C1C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD74674527BD92EF00524C1C /* Debug */,
+				AD74674627BD92EF00524C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD74670627BD92EE00524C1C /* Project object */;
+}

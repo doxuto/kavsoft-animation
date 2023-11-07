@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD524C9E2A7D3226003DB091 /* LoginKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD524C9D2A7D3226003DB091 /* LoginKitApp.swift */; };
+		AD524CA02A7D3226003DB091 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD524C9F2A7D3226003DB091 /* ContentView.swift */; };
+		AD524CA22A7D3228003DB091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD524CA12A7D3228003DB091 /* Assets.xcassets */; };
+		AD524CA62A7D3228003DB091 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD524CA52A7D3228003DB091 /* Preview Assets.xcassets */; };
+		ADCF99112A7D6F89002CCF12 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF99102A7D6F89002CCF12 /* Login.swift */; };
+		ADCF99142A7D6FE7002CCF12 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF99132A7D6FE7002CCF12 /* View+Extensions.swift */; };
+		ADCF99162A7D7074002CCF12 /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF99152A7D7074002CCF12 /* CustomTF.swift */; };
+		ADCF99182A7D7260002CCF12 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF99172A7D7260002CCF12 /* GradientButton.swift */; };
+		ADCF991A2A7D746C002CCF12 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF99192A7D746C002CCF12 /* Signup.swift */; };
+		ADCF991C2A7D7553002CCF12 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF991B2A7D7553002CCF12 /* ForgotPassword.swift */; };
+		ADCF991E2A7D76D0002CCF12 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF991D2A7D76D0002CCF12 /* PasswordResetView.swift */; };
+		ADCF99202A7D7788002CCF12 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF991F2A7D7788002CCF12 /* OTPView.swift */; };
+		ADCF99222A7D783D002CCF12 /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF99212A7D783D002CCF12 /* OTPVerificationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD524C9A2A7D3226003DB091 /* LoginKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD524C9D2A7D3226003DB091 /* LoginKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginKitApp.swift; sourceTree = "<group>"; };
+		AD524C9F2A7D3226003DB091 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD524CA12A7D3228003DB091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD524CA32A7D3228003DB091 /* LoginKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginKit.entitlements; sourceTree = "<group>"; };
+		AD524CA52A7D3228003DB091 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADCF99102A7D6F89002CCF12 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		ADCF99132A7D6FE7002CCF12 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		ADCF99152A7D7074002CCF12 /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		ADCF99172A7D7260002CCF12 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		ADCF99192A7D746C002CCF12 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		ADCF991B2A7D7553002CCF12 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		ADCF991D2A7D76D0002CCF12 /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		ADCF991F2A7D7788002CCF12 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		ADCF99212A7D783D002CCF12 /* OTPVerificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD524C972A7D3226003DB091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD524C912A7D3226003DB091 = {
+			isa = PBXGroup;
+			children = (
+				AD524C9C2A7D3226003DB091 /* LoginKit */,
+				AD524C9B2A7D3226003DB091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD524C9B2A7D3226003DB091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD524C9A2A7D3226003DB091 /* LoginKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD524C9C2A7D3226003DB091 /* LoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF99122A7D6FDD002CCF12 /* Helpers */,
+				ADCF990F2A7D6F7D002CCF12 /* View */,
+				AD524C9D2A7D3226003DB091 /* LoginKitApp.swift */,
+				AD524C9F2A7D3226003DB091 /* ContentView.swift */,
+				AD524CA12A7D3228003DB091 /* Assets.xcassets */,
+				AD524CA32A7D3228003DB091 /* LoginKit.entitlements */,
+				AD524CA42A7D3228003DB091 /* Preview Content */,
+			);
+			path = LoginKit;
+			sourceTree = "<group>";
+		};
+		AD524CA42A7D3228003DB091 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD524CA52A7D3228003DB091 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADCF990F2A7D6F7D002CCF12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF99242A7D8201002CCF12 /* HelperViews */,
+				ADCF99102A7D6F89002CCF12 /* Login.swift */,
+				ADCF99192A7D746C002CCF12 /* Signup.swift */,
+				ADCF991B2A7D7553002CCF12 /* ForgotPassword.swift */,
+				ADCF991D2A7D76D0002CCF12 /* PasswordResetView.swift */,
+				ADCF991F2A7D7788002CCF12 /* OTPView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADCF99122A7D6FDD002CCF12 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF99132A7D6FE7002CCF12 /* View+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ADCF99242A7D8201002CCF12 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF99152A7D7074002CCF12 /* CustomTF.swift */,
+				ADCF99172A7D7260002CCF12 /* GradientButton.swift */,
+				ADCF99212A7D783D002CCF12 /* OTPVerificationView.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD524C992A7D3226003DB091 /* LoginKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD524CA92A7D3228003DB091 /* Build configuration list for PBXNativeTarget "LoginKit" */;
+			buildPhases = (
+				AD524C962A7D3226003DB091 /* Sources */,
+				AD524C972A7D3226003DB091 /* Frameworks */,
+				AD524C982A7D3226003DB091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginKit;
+			productName = LoginKit;
+			productReference = AD524C9A2A7D3226003DB091 /* LoginKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD524C922A7D3226003DB091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AD524C992A7D3226003DB091 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AD524C952A7D3226003DB091 /* Build configuration list for PBXProject "LoginKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD524C912A7D3226003DB091;
+			productRefGroup = AD524C9B2A7D3226003DB091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD524C992A7D3226003DB091 /* LoginKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD524C982A7D3226003DB091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD524CA62A7D3228003DB091 /* Preview Assets.xcassets in Resources */,
+				AD524CA22A7D3228003DB091 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD524C962A7D3226003DB091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF991A2A7D746C002CCF12 /* Signup.swift in Sources */,
+				ADCF99222A7D783D002CCF12 /* OTPVerificationView.swift in Sources */,
+				ADCF99112A7D6F89002CCF12 /* Login.swift in Sources */,
+				ADCF99182A7D7260002CCF12 /* GradientButton.swift in Sources */,
+				ADCF991C2A7D7553002CCF12 /* ForgotPassword.swift in Sources */,
+				AD524CA02A7D3226003DB091 /* ContentView.swift in Sources */,
+				ADCF99142A7D6FE7002CCF12 /* View+Extensions.swift in Sources */,
+				ADCF99202A7D7788002CCF12 /* OTPView.swift in Sources */,
+				ADCF991E2A7D76D0002CCF12 /* PasswordResetView.swift in Sources */,
+				ADCF99162A7D7074002CCF12 /* CustomTF.swift in Sources */,
+				AD524C9E2A7D3226003DB091 /* LoginKitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD524CA72A7D3228003DB091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD524CA82A7D3228003DB091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AD524CAA2A7D3228003DB091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoginKit/LoginKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LoginKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD524CAB2A7D3228003DB091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoginKit/LoginKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LoginKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD524C952A7D3226003DB091 /* Build configuration list for PBXProject "LoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD524CA72A7D3228003DB091 /* Debug */,
+				AD524CA82A7D3228003DB091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD524CA92A7D3228003DB091 /* Build configuration list for PBXNativeTarget "LoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD524CAA2A7D3228003DB091 /* Debug */,
+				AD524CAB2A7D3228003DB091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD524C922A7D3226003DB091 /* Project object */;
+}

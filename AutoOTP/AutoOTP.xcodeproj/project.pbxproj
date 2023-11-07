@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD34A2382807693C00DA367B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34A2372807693C00DA367B /* Tests_iOS.swift */; };
+		AD34A23A2807693C00DA367B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34A2392807693C00DA367B /* Tests_iOSLaunchTests.swift */; };
+		AD34A2442807693C00DA367B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34A2432807693C00DA367B /* Tests_macOS.swift */; };
+		AD34A2462807693C00DA367B /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34A2452807693C00DA367B /* Tests_macOSLaunchTests.swift */; };
+		AD34A2472807693C00DA367B /* AutoOTPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34A21F2807693B00DA367B /* AutoOTPApp.swift */; };
+		AD34A2482807693C00DA367B /* AutoOTPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34A21F2807693B00DA367B /* AutoOTPApp.swift */; };
+		AD34A2492807693C00DA367B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34A2202807693B00DA367B /* ContentView.swift */; };
+		AD34A24A2807693C00DA367B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34A2202807693B00DA367B /* ContentView.swift */; };
+		AD34A24B2807693C00DA367B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD34A2212807693C00DA367B /* Assets.xcassets */; };
+		AD34A24C2807693C00DA367B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD34A2212807693C00DA367B /* Assets.xcassets */; };
+		AD55F5642808328C0001094A /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55F5632808328C0001094A /* Verification.swift */; };
+		AD55F5672808336A0001094A /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55F5662808336A0001094A /* OTPViewModel.swift */; };
+		AD55F56C28083A4B0001094A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AD55F56B28083A4B0001094A /* FirebaseAuth */; };
+		AD55F56E28083C680001094A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55F56D28083C680001094A /* Login.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD34A2342807693C00DA367B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD34A21A2807693B00DA367B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD34A2252807693C00DA367B;
+			remoteInfo = "AutoOTP (iOS)";
+		};
+		AD34A2402807693C00DA367B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD34A21A2807693B00DA367B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD34A22B2807693C00DA367B;
+			remoteInfo = "AutoOTP (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD34A21F2807693B00DA367B /* AutoOTPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPApp.swift; sourceTree = "<group>"; };
+		AD34A2202807693B00DA367B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD34A2212807693C00DA367B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD34A2262807693C00DA367B /* AutoOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34A22C2807693C00DA367B /* AutoOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34A22E2807693C00DA367B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD34A2332807693C00DA367B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34A2372807693C00DA367B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD34A2392807693C00DA367B /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD34A23F2807693C00DA367B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34A2432807693C00DA367B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD34A2452807693C00DA367B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD34A261280777A100DA367B /* AutoOTP--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AutoOTP--iOS--Info.plist"; sourceTree = "<group>"; };
+		AD55F5632808328C0001094A /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		AD55F5662808336A0001094A /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
+		AD55F56D28083C680001094A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD34A2232807693C00DA367B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD55F56C28083A4B0001094A /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34A2292807693C00DA367B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34A2302807693C00DA367B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34A23C2807693C00DA367B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD34A2192807693B00DA367B = {
+			isa = PBXGroup;
+			children = (
+				AD34A261280777A100DA367B /* AutoOTP--iOS--Info.plist */,
+				AD34A21E2807693B00DA367B /* Shared */,
+				AD34A22D2807693C00DA367B /* macOS */,
+				AD34A2362807693C00DA367B /* Tests iOS */,
+				AD34A2422807693C00DA367B /* Tests macOS */,
+				AD34A2272807693C00DA367B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD34A21E2807693B00DA367B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD55F565280833560001094A /* ViewModel */,
+				AD55F562280832830001094A /* View */,
+				AD34A21F2807693B00DA367B /* AutoOTPApp.swift */,
+				AD34A2202807693B00DA367B /* ContentView.swift */,
+				AD34A2212807693C00DA367B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD34A2272807693C00DA367B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD34A2262807693C00DA367B /* AutoOTP.app */,
+				AD34A22C2807693C00DA367B /* AutoOTP.app */,
+				AD34A2332807693C00DA367B /* Tests iOS.xctest */,
+				AD34A23F2807693C00DA367B /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD34A22D2807693C00DA367B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD34A22E2807693C00DA367B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD34A2362807693C00DA367B /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD34A2372807693C00DA367B /* Tests_iOS.swift */,
+				AD34A2392807693C00DA367B /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD34A2422807693C00DA367B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD34A2432807693C00DA367B /* Tests_macOS.swift */,
+				AD34A2452807693C00DA367B /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AD55F562280832830001094A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD55F5632808328C0001094A /* Verification.swift */,
+				AD55F56D28083C680001094A /* Login.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD55F565280833560001094A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD55F5662808336A0001094A /* OTPViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD34A2252807693C00DA367B /* AutoOTP (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34A24F2807693C00DA367B /* Build configuration list for PBXNativeTarget "AutoOTP (iOS)" */;
+			buildPhases = (
+				AD34A2222807693C00DA367B /* Sources */,
+				AD34A2232807693C00DA367B /* Frameworks */,
+				AD34A2242807693C00DA367B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoOTP (iOS)";
+			packageProductDependencies = (
+				AD55F56B28083A4B0001094A /* FirebaseAuth */,
+			);
+			productName = "AutoOTP (iOS)";
+			productReference = AD34A2262807693C00DA367B /* AutoOTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD34A22B2807693C00DA367B /* AutoOTP (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34A2522807693C00DA367B /* Build configuration list for PBXNativeTarget "AutoOTP (macOS)" */;
+			buildPhases = (
+				AD34A2282807693C00DA367B /* Sources */,
+				AD34A2292807693C00DA367B /* Frameworks */,
+				AD34A22A2807693C00DA367B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoOTP (macOS)";
+			productName = "AutoOTP (macOS)";
+			productReference = AD34A22C2807693C00DA367B /* AutoOTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD34A2322807693C00DA367B /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34A2552807693C00DA367B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD34A22F2807693C00DA367B /* Sources */,
+				AD34A2302807693C00DA367B /* Frameworks */,
+				AD34A2312807693C00DA367B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD34A2352807693C00DA367B /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD34A2332807693C00DA367B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD34A23E2807693C00DA367B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34A2582807693C00DA367B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD34A23B2807693C00DA367B /* Sources */,
+				AD34A23C2807693C00DA367B /* Frameworks */,
+				AD34A23D2807693C00DA367B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD34A2412807693C00DA367B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD34A23F2807693C00DA367B /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD34A21A2807693B00DA367B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AD34A2252807693C00DA367B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AD34A22B2807693C00DA367B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AD34A2322807693C00DA367B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD34A2252807693C00DA367B;
+					};
+					AD34A23E2807693C00DA367B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD34A22B2807693C00DA367B;
+					};
+				};
+			};
+			buildConfigurationList = AD34A21D2807693B00DA367B /* Build configuration list for PBXProject "AutoOTP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD34A2192807693B00DA367B;
+			packageReferences = (
+				AD55F56A28083A4B0001094A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = AD34A2272807693C00DA367B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD34A2252807693C00DA367B /* AutoOTP (iOS) */,
+				AD34A22B2807693C00DA367B /* AutoOTP (macOS) */,
+				AD34A2322807693C00DA367B /* Tests iOS */,
+				AD34A23E2807693C00DA367B /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD34A2242807693C00DA367B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34A24B2807693C00DA367B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34A22A2807693C00DA367B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34A24C2807693C00DA367B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34A2312807693C00DA367B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34A23D2807693C00DA367B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD34A2222807693C00DA367B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD55F5672808336A0001094A /* OTPViewModel.swift in Sources */,
+				AD55F56E28083C680001094A /* Login.swift in Sources */,
+				AD55F5642808328C0001094A /* Verification.swift in Sources */,
+				AD34A2492807693C00DA367B /* ContentView.swift in Sources */,
+				AD34A2472807693C00DA367B /* AutoOTPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34A2282807693C00DA367B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34A24A2807693C00DA367B /* ContentView.swift in Sources */,
+				AD34A2482807693C00DA367B /* AutoOTPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34A22F2807693C00DA367B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34A23A2807693C00DA367B /* Tests_iOSLaunchTests.swift in Sources */,
+				AD34A2382807693C00DA367B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34A23B2807693C00DA367B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34A2462807693C00DA367B /* Tests_macOSLaunchTests.swift in Sources */,
+				AD34A2442807693C00DA367B /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD34A2352807693C00DA367B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD34A2252807693C00DA367B /* AutoOTP (iOS) */;
+			targetProxy = AD34A2342807693C00DA367B /* PBXContainerItemProxy */;
+		};
+		AD34A2412807693C00DA367B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD34A22B2807693C00DA367B /* AutoOTP (macOS) */;
+			targetProxy = AD34A2402807693C00DA367B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD34A24D2807693C00DA367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD34A24E2807693C00DA367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD34A2502807693C00DA367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AutoOTP--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.AutoOTP;
+				PRODUCT_NAME = AutoOTP;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD34A2512807693C00DA367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AutoOTP--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.AutoOTP;
+				PRODUCT_NAME = AutoOTP;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD34A2532807693C00DA367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.AutoOTP;
+				PRODUCT_NAME = AutoOTP;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD34A2542807693C00DA367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.AutoOTP;
+				PRODUCT_NAME = AutoOTP;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD34A2562807693C00DA367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AutoOTP (iOS)";
+			};
+			name = Debug;
+		};
+		AD34A2572807693C00DA367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AutoOTP (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD34A2592807693C00DA367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AutoOTP (macOS)";
+			};
+			name = Debug;
+		};
+		AD34A25A2807693C00DA367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AutoOTP (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD34A21D2807693B00DA367B /* Build configuration list for PBXProject "AutoOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34A24D2807693C00DA367B /* Debug */,
+				AD34A24E2807693C00DA367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34A24F2807693C00DA367B /* Build configuration list for PBXNativeTarget "AutoOTP (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34A2502807693C00DA367B /* Debug */,
+				AD34A2512807693C00DA367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34A2522807693C00DA367B /* Build configuration list for PBXNativeTarget "AutoOTP (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34A2532807693C00DA367B /* Debug */,
+				AD34A2542807693C00DA367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34A2552807693C00DA367B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34A2562807693C00DA367B /* Debug */,
+				AD34A2572807693C00DA367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34A2582807693C00DA367B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34A2592807693C00DA367B /* Debug */,
+				AD34A25A2807693C00DA367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD55F56A28083A4B0001094A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD55F56B28083A4B0001094A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD55F56A28083A4B0001094A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD34A21A2807693B00DA367B /* Project object */;
+}

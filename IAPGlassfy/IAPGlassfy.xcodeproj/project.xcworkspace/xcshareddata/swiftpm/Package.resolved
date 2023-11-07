@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/glassfy/ios-sdk",
+      "state" : {
+        "revision" : "8efdf6c53816ff36ba77e141901d8198edcf4113",
+        "version" : "1.3.4"
+      }
+    }
+  ],
+  "version" : 2
+}

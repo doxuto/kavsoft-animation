@@ -1,0 +1,10 @@
+{
+    "aps" : {
+        "alert" : {
+            "title" : "iPhone 14 Pro Max",
+            "body" : "Apple has introduced a new notch named `Dynamic Island`"
+        },
+        "badge" : 0
+    },
+    "Simulator Target Bundle": "com.kavsoft.DynamicIslandAnimation"
+}

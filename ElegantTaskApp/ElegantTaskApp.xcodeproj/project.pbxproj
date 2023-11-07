@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADABBC70270205E10037015E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABBC6F270205E10037015E /* Tests_iOS.swift */; };
+		ADABBC72270205E10037015E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABBC71270205E10037015E /* Tests_iOSLaunchTests.swift */; };
+		ADABBC7C270205E10037015E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABBC7B270205E10037015E /* Tests_macOS.swift */; };
+		ADABBC7E270205E10037015E /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABBC7D270205E10037015E /* Tests_macOSLaunchTests.swift */; };
+		ADABBC7F270205E10037015E /* ElegantTaskAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABBC57270205E10037015E /* ElegantTaskAppApp.swift */; };
+		ADABBC80270205E10037015E /* ElegantTaskAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABBC57270205E10037015E /* ElegantTaskAppApp.swift */; };
+		ADABBC81270205E10037015E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABBC58270205E10037015E /* ContentView.swift */; };
+		ADABBC82270205E10037015E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABBC58270205E10037015E /* ContentView.swift */; };
+		ADABBC83270205E10037015E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADABBC59270205E10037015E /* Assets.xcassets */; };
+		ADABBC84270205E10037015E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADABBC59270205E10037015E /* Assets.xcassets */; };
+		ADEC2363270263A7000EA169 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEC2362270263A7000EA169 /* Home.swift */; };
+		ADEC2365270263D3000EA169 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEC2364270263D3000EA169 /* CustomDatePicker.swift */; };
+		ADEC236727026551000EA169 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEC236627026551000EA169 /* DateValue.swift */; };
+		ADEC236927026A95000EA169 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEC236827026A95000EA169 /* Task.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADABBC6C270205E10037015E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADABBC52270205E10037015E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADABBC5D270205E10037015E;
+			remoteInfo = "ElegantTaskApp (iOS)";
+		};
+		ADABBC78270205E10037015E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADABBC52270205E10037015E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADABBC63270205E10037015E;
+			remoteInfo = "ElegantTaskApp (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADABBC57270205E10037015E /* ElegantTaskAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantTaskAppApp.swift; sourceTree = "<group>"; };
+		ADABBC58270205E10037015E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADABBC59270205E10037015E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADABBC5E270205E10037015E /* ElegantTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElegantTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADABBC64270205E10037015E /* ElegantTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElegantTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADABBC66270205E10037015E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ADABBC6B270205E10037015E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADABBC6F270205E10037015E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		ADABBC71270205E10037015E /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADABBC77270205E10037015E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADABBC7B270205E10037015E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		ADABBC7D270205E10037015E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADEC2362270263A7000EA169 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ADEC2364270263D3000EA169 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		ADEC236627026551000EA169 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		ADEC236827026A95000EA169 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADABBC5B270205E10037015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABBC61270205E10037015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABBC68270205E10037015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABBC74270205E10037015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADABBC51270205E10037015E = {
+			isa = PBXGroup;
+			children = (
+				ADABBC56270205E10037015E /* Shared */,
+				ADABBC65270205E10037015E /* macOS */,
+				ADABBC6E270205E10037015E /* Tests iOS */,
+				ADABBC7A270205E10037015E /* Tests macOS */,
+				ADABBC5F270205E10037015E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADABBC56270205E10037015E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC23612702639F000EA169 /* Model */,
+				ADEC23602702639B000EA169 /* View */,
+				ADABBC57270205E10037015E /* ElegantTaskAppApp.swift */,
+				ADABBC58270205E10037015E /* ContentView.swift */,
+				ADABBC59270205E10037015E /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ADABBC5F270205E10037015E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADABBC5E270205E10037015E /* ElegantTaskApp.app */,
+				ADABBC64270205E10037015E /* ElegantTaskApp.app */,
+				ADABBC6B270205E10037015E /* Tests iOS.xctest */,
+				ADABBC77270205E10037015E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADABBC65270205E10037015E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADABBC66270205E10037015E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		ADABBC6E270205E10037015E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADABBC6F270205E10037015E /* Tests_iOS.swift */,
+				ADABBC71270205E10037015E /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		ADABBC7A270205E10037015E /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADABBC7B270205E10037015E /* Tests_macOS.swift */,
+				ADABBC7D270205E10037015E /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		ADEC23602702639B000EA169 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC2362270263A7000EA169 /* Home.swift */,
+				ADEC2364270263D3000EA169 /* CustomDatePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADEC23612702639F000EA169 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC236627026551000EA169 /* DateValue.swift */,
+				ADEC236827026A95000EA169 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADABBC5D270205E10037015E /* ElegantTaskApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADABBC87270205E10037015E /* Build configuration list for PBXNativeTarget "ElegantTaskApp (iOS)" */;
+			buildPhases = (
+				ADABBC5A270205E10037015E /* Sources */,
+				ADABBC5B270205E10037015E /* Frameworks */,
+				ADABBC5C270205E10037015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ElegantTaskApp (iOS)";
+			productName = "ElegantTaskApp (iOS)";
+			productReference = ADABBC5E270205E10037015E /* ElegantTaskApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADABBC63270205E10037015E /* ElegantTaskApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADABBC8A270205E10037015E /* Build configuration list for PBXNativeTarget "ElegantTaskApp (macOS)" */;
+			buildPhases = (
+				ADABBC60270205E10037015E /* Sources */,
+				ADABBC61270205E10037015E /* Frameworks */,
+				ADABBC62270205E10037015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ElegantTaskApp (macOS)";
+			productName = "ElegantTaskApp (macOS)";
+			productReference = ADABBC64270205E10037015E /* ElegantTaskApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADABBC6A270205E10037015E /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADABBC8D270205E10037015E /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				ADABBC67270205E10037015E /* Sources */,
+				ADABBC68270205E10037015E /* Frameworks */,
+				ADABBC69270205E10037015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADABBC6D270205E10037015E /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = ADABBC6B270205E10037015E /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ADABBC76270205E10037015E /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADABBC90270205E10037015E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				ADABBC73270205E10037015E /* Sources */,
+				ADABBC74270205E10037015E /* Frameworks */,
+				ADABBC75270205E10037015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADABBC79270205E10037015E /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = ADABBC77270205E10037015E /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADABBC52270205E10037015E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ADABBC5D270205E10037015E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ADABBC63270205E10037015E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ADABBC6A270205E10037015E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ADABBC5D270205E10037015E;
+					};
+					ADABBC76270205E10037015E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ADABBC63270205E10037015E;
+					};
+				};
+			};
+			buildConfigurationList = ADABBC55270205E10037015E /* Build configuration list for PBXProject "ElegantTaskApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADABBC51270205E10037015E;
+			productRefGroup = ADABBC5F270205E10037015E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADABBC5D270205E10037015E /* ElegantTaskApp (iOS) */,
+				ADABBC63270205E10037015E /* ElegantTaskApp (macOS) */,
+				ADABBC6A270205E10037015E /* Tests iOS */,
+				ADABBC76270205E10037015E /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADABBC5C270205E10037015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADABBC83270205E10037015E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABBC62270205E10037015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADABBC84270205E10037015E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABBC69270205E10037015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABBC75270205E10037015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADABBC5A270205E10037015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEC2365270263D3000EA169 /* CustomDatePicker.swift in Sources */,
+				ADABBC81270205E10037015E /* ContentView.swift in Sources */,
+				ADEC2363270263A7000EA169 /* Home.swift in Sources */,
+				ADABBC7F270205E10037015E /* ElegantTaskAppApp.swift in Sources */,
+				ADEC236927026A95000EA169 /* Task.swift in Sources */,
+				ADEC236727026551000EA169 /* DateValue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABBC60270205E10037015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADABBC82270205E10037015E /* ContentView.swift in Sources */,
+				ADABBC80270205E10037015E /* ElegantTaskAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABBC67270205E10037015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADABBC72270205E10037015E /* Tests_iOSLaunchTests.swift in Sources */,
+				ADABBC70270205E10037015E /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADABBC73270205E10037015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADABBC7E270205E10037015E /* Tests_macOSLaunchTests.swift in Sources */,
+				ADABBC7C270205E10037015E /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADABBC6D270205E10037015E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADABBC5D270205E10037015E /* ElegantTaskApp (iOS) */;
+			targetProxy = ADABBC6C270205E10037015E /* PBXContainerItemProxy */;
+		};
+		ADABBC79270205E10037015E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADABBC63270205E10037015E /* ElegantTaskApp (macOS) */;
+			targetProxy = ADABBC78270205E10037015E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADABBC85270205E10037015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADABBC86270205E10037015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ADABBC88270205E10037015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ElegantTaskApp;
+				PRODUCT_NAME = ElegantTaskApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADABBC89270205E10037015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ElegantTaskApp;
+				PRODUCT_NAME = ElegantTaskApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADABBC8B270205E10037015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ElegantTaskApp;
+				PRODUCT_NAME = ElegantTaskApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ADABBC8C270205E10037015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ElegantTaskApp;
+				PRODUCT_NAME = ElegantTaskApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ADABBC8E270205E10037015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ElegantTaskApp (iOS)";
+			};
+			name = Debug;
+		};
+		ADABBC8F270205E10037015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ElegantTaskApp (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADABBC91270205E10037015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ElegantTaskApp (macOS)";
+			};
+			name = Debug;
+		};
+		ADABBC92270205E10037015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ElegantTaskApp (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADABBC55270205E10037015E /* Build configuration list for PBXProject "ElegantTaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADABBC85270205E10037015E /* Debug */,
+				ADABBC86270205E10037015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADABBC87270205E10037015E /* Build configuration list for PBXNativeTarget "ElegantTaskApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADABBC88270205E10037015E /* Debug */,
+				ADABBC89270205E10037015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADABBC8A270205E10037015E /* Build configuration list for PBXNativeTarget "ElegantTaskApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADABBC8B270205E10037015E /* Debug */,
+				ADABBC8C270205E10037015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADABBC8D270205E10037015E /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADABBC8E270205E10037015E /* Debug */,
+				ADABBC8F270205E10037015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADABBC90270205E10037015E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADABBC91270205E10037015E /* Debug */,
+				ADABBC92270205E10037015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADABBC52270205E10037015E /* Project object */;
+}

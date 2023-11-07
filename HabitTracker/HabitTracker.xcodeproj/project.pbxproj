@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1007BF282950B200228525 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007BE282950B200228525 /* Tests_iOS.swift */; };
+		AD1007C1282950B200228525 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007C0282950B200228525 /* Tests_iOSLaunchTests.swift */; };
+		AD1007CB282950B200228525 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007CA282950B200228525 /* Tests_macOS.swift */; };
+		AD1007CD282950B200228525 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007CC282950B200228525 /* Tests_macOSLaunchTests.swift */; };
+		AD1007CE282950B200228525 /* HabitTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD1007A3282950B100228525 /* HabitTracker.xcdatamodeld */; };
+		AD1007CF282950B200228525 /* HabitTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD1007A3282950B100228525 /* HabitTracker.xcdatamodeld */; };
+		AD1007D0282950B200228525 /* HabitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007A5282950B100228525 /* HabitTrackerApp.swift */; };
+		AD1007D1282950B200228525 /* HabitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007A5282950B100228525 /* HabitTrackerApp.swift */; };
+		AD1007D2282950B200228525 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007A6282950B100228525 /* ContentView.swift */; };
+		AD1007D3282950B200228525 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007A6282950B100228525 /* ContentView.swift */; };
+		AD1007D4282950B200228525 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007A7282950B100228525 /* Persistence.swift */; };
+		AD1007D5282950B200228525 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007A7282950B100228525 /* Persistence.swift */; };
+		AD1007D6282950B200228525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1007A8282950B200228525 /* Assets.xcassets */; };
+		AD1007D7282950B200228525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1007A8282950B200228525 /* Assets.xcassets */; };
+		AD1007E92829517300228525 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007E82829517300228525 /* Home.swift */; };
+		AD1007EB2829528000228525 /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007EA2829528000228525 /* HabitViewModel.swift */; };
+		AD1007ED2829531400228525 /* AddNewHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1007EC2829531400228525 /* AddNewHabit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1007BB282950B200228525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD10079E282950B100228525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1007AC282950B200228525;
+			remoteInfo = "HabitTracker (iOS)";
+		};
+		AD1007C7282950B200228525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD10079E282950B100228525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1007B2282950B200228525;
+			remoteInfo = "HabitTracker (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1007A4282950B100228525 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		AD1007A5282950B100228525 /* HabitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerApp.swift; sourceTree = "<group>"; };
+		AD1007A6282950B100228525 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD1007A7282950B100228525 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AD1007A8282950B200228525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD1007AD282950B200228525 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1007B3282950B200228525 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1007B5282950B200228525 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD1007BA282950B200228525 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1007BE282950B200228525 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD1007C0282950B200228525 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD1007C6282950B200228525 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1007CA282950B200228525 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD1007CC282950B200228525 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD1007E82829517300228525 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD1007EA2829528000228525 /* HabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewModel.swift; sourceTree = "<group>"; };
+		AD1007EC2829531400228525 /* AddNewHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewHabit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1007AA282950B200228525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1007B0282950B200228525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1007B7282950B200228525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1007C3282950B200228525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD10079D282950B100228525 = {
+			isa = PBXGroup;
+			children = (
+				AD1007A2282950B100228525 /* Shared */,
+				AD1007B4282950B200228525 /* macOS */,
+				AD1007BD282950B200228525 /* Tests iOS */,
+				AD1007C9282950B200228525 /* Tests macOS */,
+				AD1007AE282950B200228525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1007A2282950B100228525 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD1007E72829516C00228525 /* ViewModel */,
+				AD1007E62829516800228525 /* View */,
+				AD1007A5282950B100228525 /* HabitTrackerApp.swift */,
+				AD1007A6282950B100228525 /* ContentView.swift */,
+				AD1007A7282950B100228525 /* Persistence.swift */,
+				AD1007A8282950B200228525 /* Assets.xcassets */,
+				AD1007A3282950B100228525 /* HabitTracker.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD1007AE282950B200228525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1007AD282950B200228525 /* HabitTracker.app */,
+				AD1007B3282950B200228525 /* HabitTracker.app */,
+				AD1007BA282950B200228525 /* Tests iOS.xctest */,
+				AD1007C6282950B200228525 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1007B4282950B200228525 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD1007B5282950B200228525 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD1007BD282950B200228525 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD1007BE282950B200228525 /* Tests_iOS.swift */,
+				AD1007C0282950B200228525 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD1007C9282950B200228525 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD1007CA282950B200228525 /* Tests_macOS.swift */,
+				AD1007CC282950B200228525 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AD1007E62829516800228525 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD1007E82829517300228525 /* Home.swift */,
+				AD1007EC2829531400228525 /* AddNewHabit.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD1007E72829516C00228525 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD1007EA2829528000228525 /* HabitViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1007AC282950B200228525 /* HabitTracker (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1007DA282950B200228525 /* Build configuration list for PBXNativeTarget "HabitTracker (iOS)" */;
+			buildPhases = (
+				AD1007A9282950B200228525 /* Sources */,
+				AD1007AA282950B200228525 /* Frameworks */,
+				AD1007AB282950B200228525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HabitTracker (iOS)";
+			productName = "HabitTracker (iOS)";
+			productReference = AD1007AD282950B200228525 /* HabitTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1007B2282950B200228525 /* HabitTracker (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1007DD282950B200228525 /* Build configuration list for PBXNativeTarget "HabitTracker (macOS)" */;
+			buildPhases = (
+				AD1007AF282950B200228525 /* Sources */,
+				AD1007B0282950B200228525 /* Frameworks */,
+				AD1007B1282950B200228525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HabitTracker (macOS)";
+			productName = "HabitTracker (macOS)";
+			productReference = AD1007B3282950B200228525 /* HabitTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1007B9282950B200228525 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1007E0282950B200228525 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD1007B6282950B200228525 /* Sources */,
+				AD1007B7282950B200228525 /* Frameworks */,
+				AD1007B8282950B200228525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1007BC282950B200228525 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD1007BA282950B200228525 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD1007C5282950B200228525 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1007E3282950B200228525 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD1007C2282950B200228525 /* Sources */,
+				AD1007C3282950B200228525 /* Frameworks */,
+				AD1007C4282950B200228525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1007C8282950B200228525 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD1007C6282950B200228525 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD10079E282950B100228525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AD1007AC282950B200228525 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AD1007B2282950B200228525 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AD1007B9282950B200228525 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD1007AC282950B200228525;
+					};
+					AD1007C5282950B200228525 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD1007B2282950B200228525;
+					};
+				};
+			};
+			buildConfigurationList = AD1007A1282950B100228525 /* Build configuration list for PBXProject "HabitTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD10079D282950B100228525;
+			productRefGroup = AD1007AE282950B200228525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1007AC282950B200228525 /* HabitTracker (iOS) */,
+				AD1007B2282950B200228525 /* HabitTracker (macOS) */,
+				AD1007B9282950B200228525 /* Tests iOS */,
+				AD1007C5282950B200228525 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1007AB282950B200228525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1007D6282950B200228525 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1007B1282950B200228525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1007D7282950B200228525 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1007B8282950B200228525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1007C4282950B200228525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD1007A9282950B200228525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1007CE282950B200228525 /* HabitTracker.xcdatamodeld in Sources */,
+				AD1007D4282950B200228525 /* Persistence.swift in Sources */,
+				AD1007E92829517300228525 /* Home.swift in Sources */,
+				AD1007ED2829531400228525 /* AddNewHabit.swift in Sources */,
+				AD1007EB2829528000228525 /* HabitViewModel.swift in Sources */,
+				AD1007D0282950B200228525 /* HabitTrackerApp.swift in Sources */,
+				AD1007D2282950B200228525 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1007AF282950B200228525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1007CF282950B200228525 /* HabitTracker.xcdatamodeld in Sources */,
+				AD1007D5282950B200228525 /* Persistence.swift in Sources */,
+				AD1007D1282950B200228525 /* HabitTrackerApp.swift in Sources */,
+				AD1007D3282950B200228525 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1007B6282950B200228525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1007C1282950B200228525 /* Tests_iOSLaunchTests.swift in Sources */,
+				AD1007BF282950B200228525 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1007C2282950B200228525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1007CD282950B200228525 /* Tests_macOSLaunchTests.swift in Sources */,
+				AD1007CB282950B200228525 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD1007BC282950B200228525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1007AC282950B200228525 /* HabitTracker (iOS) */;
+			targetProxy = AD1007BB282950B200228525 /* PBXContainerItemProxy */;
+		};
+		AD1007C8282950B200228525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1007B2282950B200228525 /* HabitTracker (macOS) */;
+			targetProxy = AD1007C7282950B200228525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD1007D8282950B200228525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD1007D9282950B200228525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD1007DB282950B200228525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.HabitTracker;
+				PRODUCT_NAME = HabitTracker;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD1007DC282950B200228525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.HabitTracker;
+				PRODUCT_NAME = HabitTracker;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1007DE282950B200228525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.HabitTracker;
+				PRODUCT_NAME = HabitTracker;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD1007DF282950B200228525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.HabitTracker;
+				PRODUCT_NAME = HabitTracker;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD1007E1282950B200228525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HabitTracker (iOS)";
+			};
+			name = Debug;
+		};
+		AD1007E2282950B200228525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HabitTracker (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1007E4282950B200228525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HabitTracker (macOS)";
+			};
+			name = Debug;
+		};
+		AD1007E5282950B200228525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HabitTracker (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD1007A1282950B100228525 /* Build configuration list for PBXProject "HabitTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1007D8282950B200228525 /* Debug */,
+				AD1007D9282950B200228525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1007DA282950B200228525 /* Build configuration list for PBXNativeTarget "HabitTracker (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1007DB282950B200228525 /* Debug */,
+				AD1007DC282950B200228525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1007DD282950B200228525 /* Build configuration list for PBXNativeTarget "HabitTracker (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1007DE282950B200228525 /* Debug */,
+				AD1007DF282950B200228525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1007E0282950B200228525 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1007E1282950B200228525 /* Debug */,
+				AD1007E2282950B200228525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1007E3282950B200228525 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1007E4282950B200228525 /* Debug */,
+				AD1007E5282950B200228525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD1007A3282950B100228525 /* HabitTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD1007A4282950B100228525 /* Shared.xcdatamodel */,
+			);
+			currentVersion = AD1007A4282950B100228525 /* Shared.xcdatamodel */;
+			path = HabitTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD10079E282950B100228525 /* Project object */;
+}

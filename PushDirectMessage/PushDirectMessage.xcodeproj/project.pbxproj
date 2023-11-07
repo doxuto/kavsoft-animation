@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD12D09826FFACF400771615 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12D09726FFACF400771615 /* Tests_iOS.swift */; };
+		AD12D09A26FFACF400771615 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12D09926FFACF400771615 /* Tests_iOSLaunchTests.swift */; };
+		AD12D0A426FFACF400771615 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12D0A326FFACF400771615 /* Tests_macOS.swift */; };
+		AD12D0A626FFACF400771615 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12D0A526FFACF400771615 /* Tests_macOSLaunchTests.swift */; };
+		AD12D0A726FFACF400771615 /* PushDirectMessageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12D07F26FFACF300771615 /* PushDirectMessageApp.swift */; };
+		AD12D0A826FFACF400771615 /* PushDirectMessageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12D07F26FFACF300771615 /* PushDirectMessageApp.swift */; };
+		AD12D0A926FFACF400771615 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12D08026FFACF300771615 /* ContentView.swift */; };
+		AD12D0AA26FFACF400771615 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12D08026FFACF300771615 /* ContentView.swift */; };
+		AD12D0AB26FFACF400771615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD12D08126FFACF400771615 /* Assets.xcassets */; };
+		AD12D0AC26FFACF400771615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD12D08126FFACF400771615 /* Assets.xcassets */; };
+		AD12D0BD26FFAD3E00771615 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AD12D0BC26FFAD3E00771615 /* FirebaseAnalytics */; };
+		AD12D0BF26FFAD3E00771615 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = AD12D0BE26FFAD3E00771615 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD12D09426FFACF400771615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD12D07A26FFACF300771615 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD12D08526FFACF400771615;
+			remoteInfo = "PushDirectMessage (iOS)";
+		};
+		AD12D0A026FFACF400771615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD12D07A26FFACF300771615 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD12D08B26FFACF400771615;
+			remoteInfo = "PushDirectMessage (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD12D07F26FFACF300771615 /* PushDirectMessageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushDirectMessageApp.swift; sourceTree = "<group>"; };
+		AD12D08026FFACF300771615 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD12D08126FFACF400771615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD12D08626FFACF400771615 /* PushDirectMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushDirectMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD12D08C26FFACF400771615 /* PushDirectMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushDirectMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD12D08E26FFACF400771615 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD12D09326FFACF400771615 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD12D09726FFACF400771615 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD12D09926FFACF400771615 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD12D09F26FFACF400771615 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD12D0A326FFACF400771615 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD12D0A526FFACF400771615 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD12D0C326FFAD6B00771615 /* PushDirectMessage (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PushDirectMessage (iOS).entitlements"; sourceTree = "<group>"; };
+		AD12D0C426FFAD7300771615 /* PushDirectMessage--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PushDirectMessage--iOS--Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD12D08326FFACF400771615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12D0BF26FFAD3E00771615 /* FirebaseMessaging in Frameworks */,
+				AD12D0BD26FFAD3E00771615 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12D08926FFACF400771615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12D09026FFACF400771615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12D09C26FFACF400771615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD12D07926FFACF300771615 = {
+			isa = PBXGroup;
+			children = (
+				AD12D0C426FFAD7300771615 /* PushDirectMessage--iOS--Info.plist */,
+				AD12D0C326FFAD6B00771615 /* PushDirectMessage (iOS).entitlements */,
+				AD12D07E26FFACF300771615 /* Shared */,
+				AD12D08D26FFACF400771615 /* macOS */,
+				AD12D09626FFACF400771615 /* Tests iOS */,
+				AD12D0A226FFACF400771615 /* Tests macOS */,
+				AD12D08726FFACF400771615 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD12D07E26FFACF300771615 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD12D07F26FFACF300771615 /* PushDirectMessageApp.swift */,
+				AD12D08026FFACF300771615 /* ContentView.swift */,
+				AD12D08126FFACF400771615 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD12D08726FFACF400771615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD12D08626FFACF400771615 /* PushDirectMessage.app */,
+				AD12D08C26FFACF400771615 /* PushDirectMessage.app */,
+				AD12D09326FFACF400771615 /* Tests iOS.xctest */,
+				AD12D09F26FFACF400771615 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD12D08D26FFACF400771615 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD12D08E26FFACF400771615 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD12D09626FFACF400771615 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD12D09726FFACF400771615 /* Tests_iOS.swift */,
+				AD12D09926FFACF400771615 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD12D0A226FFACF400771615 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD12D0A326FFACF400771615 /* Tests_macOS.swift */,
+				AD12D0A526FFACF400771615 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD12D08526FFACF400771615 /* PushDirectMessage (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD12D0AF26FFACF400771615 /* Build configuration list for PBXNativeTarget "PushDirectMessage (iOS)" */;
+			buildPhases = (
+				AD12D08226FFACF400771615 /* Sources */,
+				AD12D08326FFACF400771615 /* Frameworks */,
+				AD12D08426FFACF400771615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PushDirectMessage (iOS)";
+			packageProductDependencies = (
+				AD12D0BC26FFAD3E00771615 /* FirebaseAnalytics */,
+				AD12D0BE26FFAD3E00771615 /* FirebaseMessaging */,
+			);
+			productName = "PushDirectMessage (iOS)";
+			productReference = AD12D08626FFACF400771615 /* PushDirectMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD12D08B26FFACF400771615 /* PushDirectMessage (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD12D0B226FFACF400771615 /* Build configuration list for PBXNativeTarget "PushDirectMessage (macOS)" */;
+			buildPhases = (
+				AD12D08826FFACF400771615 /* Sources */,
+				AD12D08926FFACF400771615 /* Frameworks */,
+				AD12D08A26FFACF400771615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PushDirectMessage (macOS)";
+			productName = "PushDirectMessage (macOS)";
+			productReference = AD12D08C26FFACF400771615 /* PushDirectMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD12D09226FFACF400771615 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD12D0B526FFACF400771615 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD12D08F26FFACF400771615 /* Sources */,
+				AD12D09026FFACF400771615 /* Frameworks */,
+				AD12D09126FFACF400771615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD12D09526FFACF400771615 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD12D09326FFACF400771615 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD12D09E26FFACF400771615 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD12D0B826FFACF400771615 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD12D09B26FFACF400771615 /* Sources */,
+				AD12D09C26FFACF400771615 /* Frameworks */,
+				AD12D09D26FFACF400771615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD12D0A126FFACF400771615 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD12D09F26FFACF400771615 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD12D07A26FFACF300771615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AD12D08526FFACF400771615 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AD12D08B26FFACF400771615 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AD12D09226FFACF400771615 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AD12D08526FFACF400771615;
+					};
+					AD12D09E26FFACF400771615 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AD12D08B26FFACF400771615;
+					};
+				};
+			};
+			buildConfigurationList = AD12D07D26FFACF300771615 /* Build configuration list for PBXProject "PushDirectMessage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD12D07926FFACF300771615;
+			packageReferences = (
+				AD12D0BB26FFAD3E00771615 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = AD12D08726FFACF400771615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD12D08526FFACF400771615 /* PushDirectMessage (iOS) */,
+				AD12D08B26FFACF400771615 /* PushDirectMessage (macOS) */,
+				AD12D09226FFACF400771615 /* Tests iOS */,
+				AD12D09E26FFACF400771615 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD12D08426FFACF400771615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12D0AB26FFACF400771615 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12D08A26FFACF400771615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12D0AC26FFACF400771615 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12D09126FFACF400771615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12D09D26FFACF400771615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD12D08226FFACF400771615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12D0A926FFACF400771615 /* ContentView.swift in Sources */,
+				AD12D0A726FFACF400771615 /* PushDirectMessageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12D08826FFACF400771615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12D0AA26FFACF400771615 /* ContentView.swift in Sources */,
+				AD12D0A826FFACF400771615 /* PushDirectMessageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12D08F26FFACF400771615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12D09A26FFACF400771615 /* Tests_iOSLaunchTests.swift in Sources */,
+				AD12D09826FFACF400771615 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12D09B26FFACF400771615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12D0A626FFACF400771615 /* Tests_macOSLaunchTests.swift in Sources */,
+				AD12D0A426FFACF400771615 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD12D09526FFACF400771615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD12D08526FFACF400771615 /* PushDirectMessage (iOS) */;
+			targetProxy = AD12D09426FFACF400771615 /* PBXContainerItemProxy */;
+		};
+		AD12D0A126FFACF400771615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD12D08B26FFACF400771615 /* PushDirectMessage (macOS) */;
+			targetProxy = AD12D0A026FFACF400771615 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD12D0AD26FFACF400771615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD12D0AE26FFACF400771615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD12D0B026FFACF400771615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PushDirectMessage (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PushDirectMessage--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.PushDirectMessage;
+				PRODUCT_NAME = PushDirectMessage;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD12D0B126FFACF400771615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PushDirectMessage (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PushDirectMessage--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.PushDirectMessage;
+				PRODUCT_NAME = PushDirectMessage;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD12D0B326FFACF400771615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.PushDirectMessage;
+				PRODUCT_NAME = PushDirectMessage;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD12D0B426FFACF400771615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.PushDirectMessage;
+				PRODUCT_NAME = PushDirectMessage;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD12D0B626FFACF400771615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PushDirectMessage (iOS)";
+			};
+			name = Debug;
+		};
+		AD12D0B726FFACF400771615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PushDirectMessage (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD12D0B926FFACF400771615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PushDirectMessage (macOS)";
+			};
+			name = Debug;
+		};
+		AD12D0BA26FFACF400771615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PushDirectMessage (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD12D07D26FFACF300771615 /* Build configuration list for PBXProject "PushDirectMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD12D0AD26FFACF400771615 /* Debug */,
+				AD12D0AE26FFACF400771615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD12D0AF26FFACF400771615 /* Build configuration list for PBXNativeTarget "PushDirectMessage (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD12D0B026FFACF400771615 /* Debug */,
+				AD12D0B126FFACF400771615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD12D0B226FFACF400771615 /* Build configuration list for PBXNativeTarget "PushDirectMessage (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD12D0B326FFACF400771615 /* Debug */,
+				AD12D0B426FFACF400771615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD12D0B526FFACF400771615 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD12D0B626FFACF400771615 /* Debug */,
+				AD12D0B726FFACF400771615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD12D0B826FFACF400771615 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD12D0B926FFACF400771615 /* Debug */,
+				AD12D0BA26FFACF400771615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD12D0BB26FFAD3E00771615 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD12D0BC26FFAD3E00771615 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD12D0BB26FFAD3E00771615 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AD12D0BE26FFAD3E00771615 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD12D0BB26FFAD3E00771615 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD12D07A26FFACF300771615 /* Project object */;
+}

@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0DFBC4273D8EC300A28918 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DFBC3273D8EC300A28918 /* Tests_iOS.swift */; };
+		AD0DFBC6273D8EC300A28918 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DFBC5273D8EC300A28918 /* Tests_iOSLaunchTests.swift */; };
+		AD0DFBD0273D8EC300A28918 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DFBCF273D8EC300A28918 /* Tests_macOS.swift */; };
+		AD0DFBD2273D8EC300A28918 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DFBD1273D8EC300A28918 /* Tests_macOSLaunchTests.swift */; };
+		AD0DFBD3273D8EC300A28918 /* LottieRatingBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DFBAB273D8EC200A28918 /* LottieRatingBarApp.swift */; };
+		AD0DFBD4273D8EC300A28918 /* LottieRatingBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DFBAB273D8EC200A28918 /* LottieRatingBarApp.swift */; };
+		AD0DFBD5273D8EC300A28918 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DFBAC273D8EC200A28918 /* ContentView.swift */; };
+		AD0DFBD6273D8EC300A28918 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0DFBAC273D8EC200A28918 /* ContentView.swift */; };
+		AD0DFBD7273D8EC300A28918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0DFBAD273D8EC300A28918 /* Assets.xcassets */; };
+		AD0DFBD8273D8EC300A28918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0DFBAD273D8EC300A28918 /* Assets.xcassets */; };
+		AD6BD77F273EF29F007D4AC5 /* Rating.json in Resources */ = {isa = PBXBuildFile; fileRef = AD6BD77E273EF29F007D4AC5 /* Rating.json */; };
+		AD6BD780273EF29F007D4AC5 /* Rating.json in Resources */ = {isa = PBXBuildFile; fileRef = AD6BD77E273EF29F007D4AC5 /* Rating.json */; };
+		AD6BD783273EF2BA007D4AC5 /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BD782273EF2BA007D4AC5 /* LottieAnimationView.swift */; };
+		AD6BD784273EF2BA007D4AC5 /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BD782273EF2BA007D4AC5 /* LottieAnimationView.swift */; };
+		AD6BD787273EFFB6007D4AC5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AD6BD786273EFFB6007D4AC5 /* Lottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD0DFBC0273D8EC300A28918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0DFBA6273D8EC200A28918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0DFBB1273D8EC300A28918;
+			remoteInfo = "LottieRatingBar (iOS)";
+		};
+		AD0DFBCC273D8EC300A28918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0DFBA6273D8EC200A28918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0DFBB7273D8EC300A28918;
+			remoteInfo = "LottieRatingBar (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD0DFBAB273D8EC200A28918 /* LottieRatingBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieRatingBarApp.swift; sourceTree = "<group>"; };
+		AD0DFBAC273D8EC200A28918 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD0DFBAD273D8EC300A28918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0DFBB2273D8EC300A28918 /* LottieRatingBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieRatingBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0DFBB8273D8EC300A28918 /* LottieRatingBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieRatingBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0DFBBA273D8EC300A28918 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD0DFBBF273D8EC300A28918 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0DFBC3273D8EC300A28918 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD0DFBC5273D8EC300A28918 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD0DFBCB273D8EC300A28918 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0DFBCF273D8EC300A28918 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD0DFBD1273D8EC300A28918 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD6BD77E273EF29F007D4AC5 /* Rating.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Rating.json; sourceTree = "<group>"; };
+		AD6BD782273EF2BA007D4AC5 /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD0DFBAF273D8EC300A28918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6BD787273EFFB6007D4AC5 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DFBB5273D8EC300A28918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DFBBC273D8EC300A28918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DFBC8273D8EC300A28918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0DFBA5273D8EC200A28918 = {
+			isa = PBXGroup;
+			children = (
+				AD0DFBAA273D8EC200A28918 /* Shared */,
+				AD0DFBB9273D8EC300A28918 /* macOS */,
+				AD0DFBC2273D8EC300A28918 /* Tests iOS */,
+				AD0DFBCE273D8EC300A28918 /* Tests macOS */,
+				AD0DFBB3273D8EC300A28918 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD0DFBAA273D8EC200A28918 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD6BD781273EF2AF007D4AC5 /* View */,
+				AD6BD77E273EF29F007D4AC5 /* Rating.json */,
+				AD0DFBAB273D8EC200A28918 /* LottieRatingBarApp.swift */,
+				AD0DFBAC273D8EC200A28918 /* ContentView.swift */,
+				AD0DFBAD273D8EC300A28918 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD0DFBB3273D8EC300A28918 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD0DFBB2273D8EC300A28918 /* LottieRatingBar.app */,
+				AD0DFBB8273D8EC300A28918 /* LottieRatingBar.app */,
+				AD0DFBBF273D8EC300A28918 /* Tests iOS.xctest */,
+				AD0DFBCB273D8EC300A28918 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0DFBB9273D8EC300A28918 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD0DFBBA273D8EC300A28918 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD0DFBC2273D8EC300A28918 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD0DFBC3273D8EC300A28918 /* Tests_iOS.swift */,
+				AD0DFBC5273D8EC300A28918 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD0DFBCE273D8EC300A28918 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD0DFBCF273D8EC300A28918 /* Tests_macOS.swift */,
+				AD0DFBD1273D8EC300A28918 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AD6BD781273EF2AF007D4AC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD6BD782273EF2BA007D4AC5 /* LottieAnimationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD0DFBB1273D8EC300A28918 /* LottieRatingBar (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0DFBDB273D8EC300A28918 /* Build configuration list for PBXNativeTarget "LottieRatingBar (iOS)" */;
+			buildPhases = (
+				AD0DFBAE273D8EC300A28918 /* Sources */,
+				AD0DFBAF273D8EC300A28918 /* Frameworks */,
+				AD0DFBB0273D8EC300A28918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LottieRatingBar (iOS)";
+			packageProductDependencies = (
+				AD6BD786273EFFB6007D4AC5 /* Lottie */,
+			);
+			productName = "LottieRatingBar (iOS)";
+			productReference = AD0DFBB2273D8EC300A28918 /* LottieRatingBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0DFBB7273D8EC300A28918 /* LottieRatingBar (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0DFBDE273D8EC300A28918 /* Build configuration list for PBXNativeTarget "LottieRatingBar (macOS)" */;
+			buildPhases = (
+				AD0DFBB4273D8EC300A28918 /* Sources */,
+				AD0DFBB5273D8EC300A28918 /* Frameworks */,
+				AD0DFBB6273D8EC300A28918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LottieRatingBar (macOS)";
+			productName = "LottieRatingBar (macOS)";
+			productReference = AD0DFBB8273D8EC300A28918 /* LottieRatingBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0DFBBE273D8EC300A28918 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0DFBE1273D8EC300A28918 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD0DFBBB273D8EC300A28918 /* Sources */,
+				AD0DFBBC273D8EC300A28918 /* Frameworks */,
+				AD0DFBBD273D8EC300A28918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0DFBC1273D8EC300A28918 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD0DFBBF273D8EC300A28918 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD0DFBCA273D8EC300A28918 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0DFBE4273D8EC300A28918 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD0DFBC7273D8EC300A28918 /* Sources */,
+				AD0DFBC8273D8EC300A28918 /* Frameworks */,
+				AD0DFBC9273D8EC300A28918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0DFBCD273D8EC300A28918 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD0DFBCB273D8EC300A28918 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD0DFBA6273D8EC200A28918 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AD0DFBB1273D8EC300A28918 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AD0DFBB7273D8EC300A28918 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AD0DFBBE273D8EC300A28918 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AD0DFBB1273D8EC300A28918;
+					};
+					AD0DFBCA273D8EC300A28918 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AD0DFBB7273D8EC300A28918;
+					};
+				};
+			};
+			buildConfigurationList = AD0DFBA9273D8EC200A28918 /* Build configuration list for PBXProject "LottieRatingBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD0DFBA5273D8EC200A28918;
+			packageReferences = (
+				AD6BD785273EFFB6007D4AC5 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = AD0DFBB3273D8EC300A28918 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD0DFBB1273D8EC300A28918 /* LottieRatingBar (iOS) */,
+				AD0DFBB7273D8EC300A28918 /* LottieRatingBar (macOS) */,
+				AD0DFBBE273D8EC300A28918 /* Tests iOS */,
+				AD0DFBCA273D8EC300A28918 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD0DFBB0273D8EC300A28918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6BD77F273EF29F007D4AC5 /* Rating.json in Resources */,
+				AD0DFBD7273D8EC300A28918 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DFBB6273D8EC300A28918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6BD780273EF29F007D4AC5 /* Rating.json in Resources */,
+				AD0DFBD8273D8EC300A28918 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DFBBD273D8EC300A28918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DFBC9273D8EC300A28918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD0DFBAE273D8EC300A28918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DFBD5273D8EC300A28918 /* ContentView.swift in Sources */,
+				AD6BD783273EF2BA007D4AC5 /* LottieAnimationView.swift in Sources */,
+				AD0DFBD3273D8EC300A28918 /* LottieRatingBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DFBB4273D8EC300A28918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DFBD6273D8EC300A28918 /* ContentView.swift in Sources */,
+				AD6BD784273EF2BA007D4AC5 /* LottieAnimationView.swift in Sources */,
+				AD0DFBD4273D8EC300A28918 /* LottieRatingBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DFBBB273D8EC300A28918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DFBC6273D8EC300A28918 /* Tests_iOSLaunchTests.swift in Sources */,
+				AD0DFBC4273D8EC300A28918 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0DFBC7273D8EC300A28918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0DFBD2273D8EC300A28918 /* Tests_macOSLaunchTests.swift in Sources */,
+				AD0DFBD0273D8EC300A28918 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD0DFBC1273D8EC300A28918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0DFBB1273D8EC300A28918 /* LottieRatingBar (iOS) */;
+			targetProxy = AD0DFBC0273D8EC300A28918 /* PBXContainerItemProxy */;
+		};
+		AD0DFBCD273D8EC300A28918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0DFBB7273D8EC300A28918 /* LottieRatingBar (macOS) */;
+			targetProxy = AD0DFBCC273D8EC300A28918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD0DFBD9273D8EC300A28918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD0DFBDA273D8EC300A28918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD0DFBDC273D8EC300A28918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LottieRatingBar;
+				PRODUCT_NAME = LottieRatingBar;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0DFBDD273D8EC300A28918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LottieRatingBar;
+				PRODUCT_NAME = LottieRatingBar;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0DFBDF273D8EC300A28918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LottieRatingBar;
+				PRODUCT_NAME = LottieRatingBar;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD0DFBE0273D8EC300A28918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LottieRatingBar;
+				PRODUCT_NAME = LottieRatingBar;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD0DFBE2273D8EC300A28918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LottieRatingBar (iOS)";
+			};
+			name = Debug;
+		};
+		AD0DFBE3273D8EC300A28918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LottieRatingBar (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0DFBE5273D8EC300A28918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LottieRatingBar (macOS)";
+			};
+			name = Debug;
+		};
+		AD0DFBE6273D8EC300A28918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LottieRatingBar (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD0DFBA9273D8EC200A28918 /* Build configuration list for PBXProject "LottieRatingBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0DFBD9273D8EC300A28918 /* Debug */,
+				AD0DFBDA273D8EC300A28918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0DFBDB273D8EC300A28918 /* Build configuration list for PBXNativeTarget "LottieRatingBar (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0DFBDC273D8EC300A28918 /* Debug */,
+				AD0DFBDD273D8EC300A28918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0DFBDE273D8EC300A28918 /* Build configuration list for PBXNativeTarget "LottieRatingBar (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0DFBDF273D8EC300A28918 /* Debug */,
+				AD0DFBE0273D8EC300A28918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0DFBE1273D8EC300A28918 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0DFBE2273D8EC300A28918 /* Debug */,
+				AD0DFBE3273D8EC300A28918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0DFBE4273D8EC300A28918 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0DFBE5273D8EC300A28918 /* Debug */,
+				AD0DFBE6273D8EC300A28918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD6BD785273EFFB6007D4AC5 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD6BD786273EFFB6007D4AC5 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD6BD785273EFFB6007D4AC5 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD0DFBA6273D8EC200A28918 /* Project object */;
+}

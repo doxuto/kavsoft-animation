@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD020001298F08D50020501B /* HeroFullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD020000298F08D50020501B /* HeroFullScreenCover.swift */; };
+		AD020004298F09290020501B /* AnimationFinishCallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD020003298F09290020501B /* AnimationFinishCallBack.swift */; };
+		AD02FFEA298EFFD30020501B /* FullScreenCoverHeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02FFE9298EFFD30020501B /* FullScreenCoverHeroApp.swift */; };
+		AD02FFEC298EFFD30020501B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02FFEB298EFFD30020501B /* ContentView.swift */; };
+		AD02FFEE298EFFD30020501B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD02FFED298EFFD30020501B /* Assets.xcassets */; };
+		AD02FFF2298EFFD30020501B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD02FFF1298EFFD30020501B /* Preview Assets.xcassets */; };
+		AD02FFFB298F00780020501B /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02FFFA298F00780020501B /* Row.swift */; };
+		AD02FFFD298F008A0020501B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02FFFC298F008A0020501B /* Home.swift */; };
+		AD02FFFF298F04750020501B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02FFFE298F04750020501B /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD020000298F08D50020501B /* HeroFullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroFullScreenCover.swift; sourceTree = "<group>"; };
+		AD020003298F09290020501B /* AnimationFinishCallBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFinishCallBack.swift; sourceTree = "<group>"; };
+		AD02FFE6298EFFD30020501B /* FullScreenCoverHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullScreenCoverHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD02FFE9298EFFD30020501B /* FullScreenCoverHeroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCoverHeroApp.swift; sourceTree = "<group>"; };
+		AD02FFEB298EFFD30020501B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD02FFED298EFFD30020501B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD02FFEF298EFFD30020501B /* FullScreenCoverHero.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FullScreenCoverHero.entitlements; sourceTree = "<group>"; };
+		AD02FFF1298EFFD30020501B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD02FFFA298F00780020501B /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		AD02FFFC298F008A0020501B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD02FFFE298F04750020501B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD02FFE3298EFFD30020501B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD020002298F091E0020501B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD020003298F09290020501B /* AnimationFinishCallBack.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AD02FFDD298EFFD30020501B = {
+			isa = PBXGroup;
+			children = (
+				AD02FFE8298EFFD30020501B /* FullScreenCoverHero */,
+				AD02FFE7298EFFD30020501B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD02FFE7298EFFD30020501B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD02FFE6298EFFD30020501B /* FullScreenCoverHero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD02FFE8298EFFD30020501B /* FullScreenCoverHero */ = {
+			isa = PBXGroup;
+			children = (
+				AD020002298F091E0020501B /* Helpers */,
+				AD02FFF9298F00730020501B /* Model */,
+				AD02FFF8298F006F0020501B /* View */,
+				AD02FFE9298EFFD30020501B /* FullScreenCoverHeroApp.swift */,
+				AD02FFEB298EFFD30020501B /* ContentView.swift */,
+				AD02FFED298EFFD30020501B /* Assets.xcassets */,
+				AD02FFEF298EFFD30020501B /* FullScreenCoverHero.entitlements */,
+				AD02FFF0298EFFD30020501B /* Preview Content */,
+			);
+			path = FullScreenCoverHero;
+			sourceTree = "<group>";
+		};
+		AD02FFF0298EFFD30020501B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD02FFF1298EFFD30020501B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD02FFF8298F006F0020501B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD02FFFC298F008A0020501B /* Home.swift */,
+				AD02FFFE298F04750020501B /* DetailView.swift */,
+				AD020000298F08D50020501B /* HeroFullScreenCover.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD02FFF9298F00730020501B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD02FFFA298F00780020501B /* Row.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD02FFE5298EFFD30020501B /* FullScreenCoverHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD02FFF5298EFFD30020501B /* Build configuration list for PBXNativeTarget "FullScreenCoverHero" */;
+			buildPhases = (
+				AD02FFE2298EFFD30020501B /* Sources */,
+				AD02FFE3298EFFD30020501B /* Frameworks */,
+				AD02FFE4298EFFD30020501B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullScreenCoverHero;
+			productName = FullScreenCoverHero;
+			productReference = AD02FFE6298EFFD30020501B /* FullScreenCoverHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD02FFDE298EFFD30020501B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AD02FFE5298EFFD30020501B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AD02FFE1298EFFD30020501B /* Build configuration list for PBXProject "FullScreenCoverHero" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD02FFDD298EFFD30020501B;
+			productRefGroup = AD02FFE7298EFFD30020501B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD02FFE5298EFFD30020501B /* FullScreenCoverHero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD02FFE4298EFFD30020501B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD02FFF2298EFFD30020501B /* Preview Assets.xcassets in Resources */,
+				AD02FFEE298EFFD30020501B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD02FFE2298EFFD30020501B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD020001298F08D50020501B /* HeroFullScreenCover.swift in Sources */,
+				AD02FFEC298EFFD30020501B /* ContentView.swift in Sources */,
+				AD020004298F09290020501B /* AnimationFinishCallBack.swift in Sources */,
+				AD02FFFB298F00780020501B /* Row.swift in Sources */,
+				AD02FFFD298F008A0020501B /* Home.swift in Sources */,
+				AD02FFFF298F04750020501B /* DetailView.swift in Sources */,
+				AD02FFEA298EFFD30020501B /* FullScreenCoverHeroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD02FFF3298EFFD30020501B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD02FFF4298EFFD30020501B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD02FFF6298EFFD30020501B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FullScreenCoverHero/FullScreenCoverHero.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FullScreenCoverHero/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.FullScreenCoverHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD02FFF7298EFFD30020501B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FullScreenCoverHero/FullScreenCoverHero.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FullScreenCoverHero/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.FullScreenCoverHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD02FFE1298EFFD30020501B /* Build configuration list for PBXProject "FullScreenCoverHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD02FFF3298EFFD30020501B /* Debug */,
+				AD02FFF4298EFFD30020501B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD02FFF5298EFFD30020501B /* Build configuration list for PBXNativeTarget "FullScreenCoverHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD02FFF6298EFFD30020501B /* Debug */,
+				AD02FFF7298EFFD30020501B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD02FFDE298EFFD30020501B /* Project object */;
+}

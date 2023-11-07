@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD605E9D27B70CF7003CF4A1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD605E9C27B70CF7003CF4A1 /* Home.swift */; };
+		AD60863627B6D2B600368BEC /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60863527B6D2B600368BEC /* Tests_iOS.swift */; };
+		AD60863827B6D2B600368BEC /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60863727B6D2B600368BEC /* Tests_iOSLaunchTests.swift */; };
+		AD60864227B6D2B600368BEC /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60864127B6D2B600368BEC /* Tests_macOS.swift */; };
+		AD60864427B6D2B600368BEC /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60864327B6D2B600368BEC /* Tests_macOSLaunchTests.swift */; };
+		AD60864527B6D2B600368BEC /* WaterWaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60861D27B6D2B500368BEC /* WaterWaveApp.swift */; };
+		AD60864627B6D2B600368BEC /* WaterWaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60861D27B6D2B500368BEC /* WaterWaveApp.swift */; };
+		AD60864727B6D2B600368BEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60861E27B6D2B500368BEC /* ContentView.swift */; };
+		AD60864827B6D2B600368BEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60861E27B6D2B500368BEC /* ContentView.swift */; };
+		AD60864927B6D2B600368BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD60861F27B6D2B600368BEC /* Assets.xcassets */; };
+		AD60864A27B6D2B600368BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD60861F27B6D2B600368BEC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD60863227B6D2B600368BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD60861827B6D2B500368BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD60862327B6D2B600368BEC;
+			remoteInfo = "WaterWave (iOS)";
+		};
+		AD60863E27B6D2B600368BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD60861827B6D2B500368BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD60862927B6D2B600368BEC;
+			remoteInfo = "WaterWave (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD605E9C27B70CF7003CF4A1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD60861D27B6D2B500368BEC /* WaterWaveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWaveApp.swift; sourceTree = "<group>"; };
+		AD60861E27B6D2B500368BEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD60861F27B6D2B600368BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD60862427B6D2B600368BEC /* WaterWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD60862A27B6D2B600368BEC /* WaterWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD60862C27B6D2B600368BEC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD60863127B6D2B600368BEC /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD60863527B6D2B600368BEC /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD60863727B6D2B600368BEC /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD60863D27B6D2B600368BEC /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD60864127B6D2B600368BEC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD60864327B6D2B600368BEC /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD60862127B6D2B600368BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60862727B6D2B600368BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60862E27B6D2B600368BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60863A27B6D2B600368BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD605E9B27B70CED003CF4A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD605E9C27B70CF7003CF4A1 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD60861727B6D2B500368BEC = {
+			isa = PBXGroup;
+			children = (
+				AD60861C27B6D2B500368BEC /* Shared */,
+				AD60862B27B6D2B600368BEC /* macOS */,
+				AD60863427B6D2B600368BEC /* Tests iOS */,
+				AD60864027B6D2B600368BEC /* Tests macOS */,
+				AD60862527B6D2B600368BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD60861C27B6D2B500368BEC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD605E9B27B70CED003CF4A1 /* View */,
+				AD60861D27B6D2B500368BEC /* WaterWaveApp.swift */,
+				AD60861E27B6D2B500368BEC /* ContentView.swift */,
+				AD60861F27B6D2B600368BEC /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD60862527B6D2B600368BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD60862427B6D2B600368BEC /* WaterWave.app */,
+				AD60862A27B6D2B600368BEC /* WaterWave.app */,
+				AD60863127B6D2B600368BEC /* Tests iOS.xctest */,
+				AD60863D27B6D2B600368BEC /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD60862B27B6D2B600368BEC /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD60862C27B6D2B600368BEC /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD60863427B6D2B600368BEC /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD60863527B6D2B600368BEC /* Tests_iOS.swift */,
+				AD60863727B6D2B600368BEC /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD60864027B6D2B600368BEC /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD60864127B6D2B600368BEC /* Tests_macOS.swift */,
+				AD60864327B6D2B600368BEC /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD60862327B6D2B600368BEC /* WaterWave (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD60864D27B6D2B600368BEC /* Build configuration list for PBXNativeTarget "WaterWave (iOS)" */;
+			buildPhases = (
+				AD60862027B6D2B600368BEC /* Sources */,
+				AD60862127B6D2B600368BEC /* Frameworks */,
+				AD60862227B6D2B600368BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaterWave (iOS)";
+			productName = "WaterWave (iOS)";
+			productReference = AD60862427B6D2B600368BEC /* WaterWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD60862927B6D2B600368BEC /* WaterWave (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD60865027B6D2B600368BEC /* Build configuration list for PBXNativeTarget "WaterWave (macOS)" */;
+			buildPhases = (
+				AD60862627B6D2B600368BEC /* Sources */,
+				AD60862727B6D2B600368BEC /* Frameworks */,
+				AD60862827B6D2B600368BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaterWave (macOS)";
+			productName = "WaterWave (macOS)";
+			productReference = AD60862A27B6D2B600368BEC /* WaterWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD60863027B6D2B600368BEC /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD60865327B6D2B600368BEC /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD60862D27B6D2B600368BEC /* Sources */,
+				AD60862E27B6D2B600368BEC /* Frameworks */,
+				AD60862F27B6D2B600368BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD60863327B6D2B600368BEC /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD60863127B6D2B600368BEC /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD60863C27B6D2B600368BEC /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD60865627B6D2B600368BEC /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD60863927B6D2B600368BEC /* Sources */,
+				AD60863A27B6D2B600368BEC /* Frameworks */,
+				AD60863B27B6D2B600368BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD60863F27B6D2B600368BEC /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD60863D27B6D2B600368BEC /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD60861827B6D2B500368BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AD60862327B6D2B600368BEC = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					AD60862927B6D2B600368BEC = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					AD60863027B6D2B600368BEC = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = AD60862327B6D2B600368BEC;
+					};
+					AD60863C27B6D2B600368BEC = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = AD60862927B6D2B600368BEC;
+					};
+				};
+			};
+			buildConfigurationList = AD60861B27B6D2B500368BEC /* Build configuration list for PBXProject "WaterWave" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD60861727B6D2B500368BEC;
+			productRefGroup = AD60862527B6D2B600368BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD60862327B6D2B600368BEC /* WaterWave (iOS) */,
+				AD60862927B6D2B600368BEC /* WaterWave (macOS) */,
+				AD60863027B6D2B600368BEC /* Tests iOS */,
+				AD60863C27B6D2B600368BEC /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD60862227B6D2B600368BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60864927B6D2B600368BEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60862827B6D2B600368BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60864A27B6D2B600368BEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60862F27B6D2B600368BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60863B27B6D2B600368BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD60862027B6D2B600368BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60864727B6D2B600368BEC /* ContentView.swift in Sources */,
+				AD605E9D27B70CF7003CF4A1 /* Home.swift in Sources */,
+				AD60864527B6D2B600368BEC /* WaterWaveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60862627B6D2B600368BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60864827B6D2B600368BEC /* ContentView.swift in Sources */,
+				AD60864627B6D2B600368BEC /* WaterWaveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60862D27B6D2B600368BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60863827B6D2B600368BEC /* Tests_iOSLaunchTests.swift in Sources */,
+				AD60863627B6D2B600368BEC /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60863927B6D2B600368BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60864427B6D2B600368BEC /* Tests_macOSLaunchTests.swift in Sources */,
+				AD60864227B6D2B600368BEC /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD60863327B6D2B600368BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD60862327B6D2B600368BEC /* WaterWave (iOS) */;
+			targetProxy = AD60863227B6D2B600368BEC /* PBXContainerItemProxy */;
+		};
+		AD60863F27B6D2B600368BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD60862927B6D2B600368BEC /* WaterWave (macOS) */;
+			targetProxy = AD60863E27B6D2B600368BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD60864B27B6D2B600368BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD60864C27B6D2B600368BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD60864E27B6D2B600368BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.WaterWave;
+				PRODUCT_NAME = WaterWave;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD60864F27B6D2B600368BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.WaterWave;
+				PRODUCT_NAME = WaterWave;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD60865127B6D2B600368BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.WaterWave;
+				PRODUCT_NAME = WaterWave;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD60865227B6D2B600368BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.WaterWave;
+				PRODUCT_NAME = WaterWave;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD60865427B6D2B600368BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WaterWave (iOS)";
+			};
+			name = Debug;
+		};
+		AD60865527B6D2B600368BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WaterWave (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD60865727B6D2B600368BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WaterWave (macOS)";
+			};
+			name = Debug;
+		};
+		AD60865827B6D2B600368BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WaterWave (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD60861B27B6D2B500368BEC /* Build configuration list for PBXProject "WaterWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD60864B27B6D2B600368BEC /* Debug */,
+				AD60864C27B6D2B600368BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD60864D27B6D2B600368BEC /* Build configuration list for PBXNativeTarget "WaterWave (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD60864E27B6D2B600368BEC /* Debug */,
+				AD60864F27B6D2B600368BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD60865027B6D2B600368BEC /* Build configuration list for PBXNativeTarget "WaterWave (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD60865127B6D2B600368BEC /* Debug */,
+				AD60865227B6D2B600368BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD60865327B6D2B600368BEC /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD60865427B6D2B600368BEC /* Debug */,
+				AD60865527B6D2B600368BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD60865627B6D2B600368BEC /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD60865727B6D2B600368BEC /* Debug */,
+				AD60865827B6D2B600368BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD60861827B6D2B500368BEC /* Project object */;
+}

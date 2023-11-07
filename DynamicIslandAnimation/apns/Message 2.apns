@@ -1,0 +1,10 @@
+{
+    "aps" : {
+        "alert" : {
+            "title" : "Notifcation Test",
+            "body" : "Hi Developers, New Video From Kavsoft"
+        },
+        "badge" : 0
+    },
+    "Simulator Target Bundle": "com.kavsoft.DynamicIslandAnimation"
+}

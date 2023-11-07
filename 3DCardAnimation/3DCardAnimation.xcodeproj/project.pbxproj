@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD64001927E8DC8500C7C328 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64001827E8DC8500C7C328 /* Album.swift */; };
+		AD64001B27E8DCB200C7C328 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64001A27E8DCB200C7C328 /* Home.swift */; };
+		AD748EFD27E89CE900A89B58 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD748EFC27E89CE900A89B58 /* Tests_iOS.swift */; };
+		AD748EFF27E89CE900A89B58 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD748EFE27E89CE900A89B58 /* Tests_iOSLaunchTests.swift */; };
+		AD748F0927E89CE900A89B58 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD748F0827E89CE900A89B58 /* Tests_macOS.swift */; };
+		AD748F0B27E89CE900A89B58 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD748F0A27E89CE900A89B58 /* Tests_macOSLaunchTests.swift */; };
+		AD748F0C27E89CE900A89B58 /* _DCardAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD748EE427E89CE800A89B58 /* _DCardAnimationApp.swift */; };
+		AD748F0D27E89CE900A89B58 /* _DCardAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD748EE427E89CE800A89B58 /* _DCardAnimationApp.swift */; };
+		AD748F0E27E89CE900A89B58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD748EE527E89CE800A89B58 /* ContentView.swift */; };
+		AD748F0F27E89CE900A89B58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD748EE527E89CE800A89B58 /* ContentView.swift */; };
+		AD748F1027E89CE900A89B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD748EE627E89CE900A89B58 /* Assets.xcassets */; };
+		AD748F1127E89CE900A89B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD748EE627E89CE900A89B58 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD748EF927E89CE900A89B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD748EDF27E89CE800A89B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD748EEA27E89CE900A89B58;
+			remoteInfo = "3DCardAnimation (iOS)";
+		};
+		AD748F0527E89CE900A89B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD748EDF27E89CE800A89B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD748EF027E89CE900A89B58;
+			remoteInfo = "3DCardAnimation (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD64001827E8DC8500C7C328 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		AD64001A27E8DCB200C7C328 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD748EE427E89CE800A89B58 /* _DCardAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DCardAnimationApp.swift; sourceTree = "<group>"; };
+		AD748EE527E89CE800A89B58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD748EE627E89CE900A89B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD748EEB27E89CE900A89B58 /* 3DCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD748EF127E89CE900A89B58 /* 3DCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD748EF327E89CE900A89B58 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD748EF827E89CE900A89B58 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD748EFC27E89CE900A89B58 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD748EFE27E89CE900A89B58 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD748F0427E89CE900A89B58 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD748F0827E89CE900A89B58 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD748F0A27E89CE900A89B58 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD748EE827E89CE900A89B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD748EEE27E89CE900A89B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD748EF527E89CE900A89B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD748F0127E89CE900A89B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD64001627E8DC7500C7C328 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD64001A27E8DCB200C7C328 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD64001727E8DC7800C7C328 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD64001827E8DC8500C7C328 /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD748EDE27E89CE800A89B58 = {
+			isa = PBXGroup;
+			children = (
+				AD748EE327E89CE800A89B58 /* Shared */,
+				AD748EF227E89CE900A89B58 /* macOS */,
+				AD748EFB27E89CE900A89B58 /* Tests iOS */,
+				AD748F0727E89CE900A89B58 /* Tests macOS */,
+				AD748EEC27E89CE900A89B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD748EE327E89CE800A89B58 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD64001727E8DC7800C7C328 /* Model */,
+				AD64001627E8DC7500C7C328 /* View */,
+				AD748EE427E89CE800A89B58 /* _DCardAnimationApp.swift */,
+				AD748EE527E89CE800A89B58 /* ContentView.swift */,
+				AD748EE627E89CE900A89B58 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD748EEC27E89CE900A89B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD748EEB27E89CE900A89B58 /* 3DCardAnimation.app */,
+				AD748EF127E89CE900A89B58 /* 3DCardAnimation.app */,
+				AD748EF827E89CE900A89B58 /* Tests iOS.xctest */,
+				AD748F0427E89CE900A89B58 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD748EF227E89CE900A89B58 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD748EF327E89CE900A89B58 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD748EFB27E89CE900A89B58 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD748EFC27E89CE900A89B58 /* Tests_iOS.swift */,
+				AD748EFE27E89CE900A89B58 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD748F0727E89CE900A89B58 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD748F0827E89CE900A89B58 /* Tests_macOS.swift */,
+				AD748F0A27E89CE900A89B58 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD748EEA27E89CE900A89B58 /* 3DCardAnimation (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD748F1427E89CE900A89B58 /* Build configuration list for PBXNativeTarget "3DCardAnimation (iOS)" */;
+			buildPhases = (
+				AD748EE727E89CE900A89B58 /* Sources */,
+				AD748EE827E89CE900A89B58 /* Frameworks */,
+				AD748EE927E89CE900A89B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3DCardAnimation (iOS)";
+			productName = "3DCardAnimation (iOS)";
+			productReference = AD748EEB27E89CE900A89B58 /* 3DCardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD748EF027E89CE900A89B58 /* 3DCardAnimation (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD748F1727E89CE900A89B58 /* Build configuration list for PBXNativeTarget "3DCardAnimation (macOS)" */;
+			buildPhases = (
+				AD748EED27E89CE900A89B58 /* Sources */,
+				AD748EEE27E89CE900A89B58 /* Frameworks */,
+				AD748EEF27E89CE900A89B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3DCardAnimation (macOS)";
+			productName = "3DCardAnimation (macOS)";
+			productReference = AD748EF127E89CE900A89B58 /* 3DCardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD748EF727E89CE900A89B58 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD748F1A27E89CE900A89B58 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD748EF427E89CE900A89B58 /* Sources */,
+				AD748EF527E89CE900A89B58 /* Frameworks */,
+				AD748EF627E89CE900A89B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD748EFA27E89CE900A89B58 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD748EF827E89CE900A89B58 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD748F0327E89CE900A89B58 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD748F1D27E89CE900A89B58 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD748F0027E89CE900A89B58 /* Sources */,
+				AD748F0127E89CE900A89B58 /* Frameworks */,
+				AD748F0227E89CE900A89B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD748F0627E89CE900A89B58 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD748F0427E89CE900A89B58 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD748EDF27E89CE800A89B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AD748EEA27E89CE900A89B58 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AD748EF027E89CE900A89B58 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AD748EF727E89CE900A89B58 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD748EEA27E89CE900A89B58;
+					};
+					AD748F0327E89CE900A89B58 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD748EF027E89CE900A89B58;
+					};
+				};
+			};
+			buildConfigurationList = AD748EE227E89CE800A89B58 /* Build configuration list for PBXProject "3DCardAnimation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD748EDE27E89CE800A89B58;
+			productRefGroup = AD748EEC27E89CE900A89B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD748EEA27E89CE900A89B58 /* 3DCardAnimation (iOS) */,
+				AD748EF027E89CE900A89B58 /* 3DCardAnimation (macOS) */,
+				AD748EF727E89CE900A89B58 /* Tests iOS */,
+				AD748F0327E89CE900A89B58 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD748EE927E89CE900A89B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD748F1027E89CE900A89B58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD748EEF27E89CE900A89B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD748F1127E89CE900A89B58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD748EF627E89CE900A89B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD748F0227E89CE900A89B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD748EE727E89CE900A89B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD748F0E27E89CE900A89B58 /* ContentView.swift in Sources */,
+				AD748F0C27E89CE900A89B58 /* _DCardAnimationApp.swift in Sources */,
+				AD64001B27E8DCB200C7C328 /* Home.swift in Sources */,
+				AD64001927E8DC8500C7C328 /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD748EED27E89CE900A89B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD748F0F27E89CE900A89B58 /* ContentView.swift in Sources */,
+				AD748F0D27E89CE900A89B58 /* _DCardAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD748EF427E89CE900A89B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD748EFF27E89CE900A89B58 /* Tests_iOSLaunchTests.swift in Sources */,
+				AD748EFD27E89CE900A89B58 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD748F0027E89CE900A89B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD748F0B27E89CE900A89B58 /* Tests_macOSLaunchTests.swift in Sources */,
+				AD748F0927E89CE900A89B58 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD748EFA27E89CE900A89B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD748EEA27E89CE900A89B58 /* 3DCardAnimation (iOS) */;
+			targetProxy = AD748EF927E89CE900A89B58 /* PBXContainerItemProxy */;
+		};
+		AD748F0627E89CE900A89B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD748EF027E89CE900A89B58 /* 3DCardAnimation (macOS) */;
+			targetProxy = AD748F0527E89CE900A89B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD748F1227E89CE900A89B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD748F1327E89CE900A89B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD748F1527E89CE900A89B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.-DCardAnimation";
+				PRODUCT_NAME = 3DCardAnimation;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD748F1627E89CE900A89B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.-DCardAnimation";
+				PRODUCT_NAME = 3DCardAnimation;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD748F1827E89CE900A89B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.-DCardAnimation";
+				PRODUCT_NAME = 3DCardAnimation;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD748F1927E89CE900A89B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.-DCardAnimation";
+				PRODUCT_NAME = 3DCardAnimation;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD748F1B27E89CE900A89B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3DCardAnimation (iOS)";
+			};
+			name = Debug;
+		};
+		AD748F1C27E89CE900A89B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3DCardAnimation (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD748F1E27E89CE900A89B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "3DCardAnimation (macOS)";
+			};
+			name = Debug;
+		};
+		AD748F1F27E89CE900A89B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "3DCardAnimation (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD748EE227E89CE800A89B58 /* Build configuration list for PBXProject "3DCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD748F1227E89CE900A89B58 /* Debug */,
+				AD748F1327E89CE900A89B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD748F1427E89CE900A89B58 /* Build configuration list for PBXNativeTarget "3DCardAnimation (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD748F1527E89CE900A89B58 /* Debug */,
+				AD748F1627E89CE900A89B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD748F1727E89CE900A89B58 /* Build configuration list for PBXNativeTarget "3DCardAnimation (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD748F1827E89CE900A89B58 /* Debug */,
+				AD748F1927E89CE900A89B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD748F1A27E89CE900A89B58 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD748F1B27E89CE900A89B58 /* Debug */,
+				AD748F1C27E89CE900A89B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD748F1D27E89CE900A89B58 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD748F1E27E89CE900A89B58 /* Debug */,
+				AD748F1F27E89CE900A89B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD748EDF27E89CE800A89B58 /* Project object */;
+}

@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADD20EC726FCB90200B99BC5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD20EC626FCB90200B99BC5 /* Tests_iOS.swift */; };
+		ADD20EC926FCB90200B99BC5 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD20EC826FCB90200B99BC5 /* Tests_iOSLaunchTests.swift */; };
+		ADD20ED326FCB90200B99BC5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD20ED226FCB90200B99BC5 /* Tests_macOS.swift */; };
+		ADD20ED526FCB90200B99BC5 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD20ED426FCB90200B99BC5 /* Tests_macOSLaunchTests.swift */; };
+		ADD20ED626FCB90200B99BC5 /* Safari_TabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD20EAE26FCB90200B99BC5 /* Safari_TabsApp.swift */; };
+		ADD20ED726FCB90200B99BC5 /* Safari_TabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD20EAE26FCB90200B99BC5 /* Safari_TabsApp.swift */; };
+		ADD20ED826FCB90200B99BC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD20EAF26FCB90200B99BC5 /* ContentView.swift */; };
+		ADD20ED926FCB90200B99BC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD20EAF26FCB90200B99BC5 /* ContentView.swift */; };
+		ADD20EDA26FCB90200B99BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD20EB026FCB90200B99BC5 /* Assets.xcassets */; };
+		ADD20EDB26FCB90200B99BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD20EB026FCB90200B99BC5 /* Assets.xcassets */; };
+		ADE61ADC26FD19D8002AE323 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE61ADB26FD19D8002AE323 /* Home.swift */; };
+		ADE61ADE26FD1B02002AE323 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE61ADD26FD1B02002AE323 /* Tab.swift */; };
+		ADE61AE026FD1BA8002AE323 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE61ADF26FD1BA8002AE323 /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADD20EC326FCB90200B99BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD20EA926FCB90200B99BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD20EB426FCB90200B99BC5;
+			remoteInfo = "Safari Tabs (iOS)";
+		};
+		ADD20ECF26FCB90200B99BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD20EA926FCB90200B99BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD20EBA26FCB90200B99BC5;
+			remoteInfo = "Safari Tabs (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADD20EAE26FCB90200B99BC5 /* Safari_TabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_TabsApp.swift; sourceTree = "<group>"; };
+		ADD20EAF26FCB90200B99BC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADD20EB026FCB90200B99BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD20EB526FCB90200B99BC5 /* Safari Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Tabs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD20EBB26FCB90200B99BC5 /* Safari Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Tabs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD20EBD26FCB90200B99BC5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ADD20EC226FCB90200B99BC5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD20EC626FCB90200B99BC5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		ADD20EC826FCB90200B99BC5 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADD20ECE26FCB90200B99BC5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD20ED226FCB90200B99BC5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		ADD20ED426FCB90200B99BC5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		ADE61ADB26FD19D8002AE323 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ADE61ADD26FD1B02002AE323 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		ADE61ADF26FD1BA8002AE323 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD20EB226FCB90200B99BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD20EB826FCB90200B99BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD20EBF26FCB90200B99BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD20ECB26FCB90200B99BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADD20EA826FCB90200B99BC5 = {
+			isa = PBXGroup;
+			children = (
+				ADD20EAD26FCB90200B99BC5 /* Shared */,
+				ADD20EBC26FCB90200B99BC5 /* macOS */,
+				ADD20EC526FCB90200B99BC5 /* Tests iOS */,
+				ADD20ED126FCB90200B99BC5 /* Tests macOS */,
+				ADD20EB626FCB90200B99BC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD20EAD26FCB90200B99BC5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ADE61ADA26FD19D3002AE323 /* Model */,
+				ADE61AD926FD19CE002AE323 /* View */,
+				ADD20EAE26FCB90200B99BC5 /* Safari_TabsApp.swift */,
+				ADD20EAF26FCB90200B99BC5 /* ContentView.swift */,
+				ADD20EB026FCB90200B99BC5 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ADD20EB626FCB90200B99BC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD20EB526FCB90200B99BC5 /* Safari Tabs.app */,
+				ADD20EBB26FCB90200B99BC5 /* Safari Tabs.app */,
+				ADD20EC226FCB90200B99BC5 /* Tests iOS.xctest */,
+				ADD20ECE26FCB90200B99BC5 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD20EBC26FCB90200B99BC5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADD20EBD26FCB90200B99BC5 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		ADD20EC526FCB90200B99BC5 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADD20EC626FCB90200B99BC5 /* Tests_iOS.swift */,
+				ADD20EC826FCB90200B99BC5 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		ADD20ED126FCB90200B99BC5 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADD20ED226FCB90200B99BC5 /* Tests_macOS.swift */,
+				ADD20ED426FCB90200B99BC5 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		ADE61AD926FD19CE002AE323 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADE61ADB26FD19D8002AE323 /* Home.swift */,
+				ADE61ADF26FD1BA8002AE323 /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADE61ADA26FD19D3002AE323 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADE61ADD26FD1B02002AE323 /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD20EB426FCB90200B99BC5 /* Safari Tabs (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD20EDE26FCB90200B99BC5 /* Build configuration list for PBXNativeTarget "Safari Tabs (iOS)" */;
+			buildPhases = (
+				ADD20EB126FCB90200B99BC5 /* Sources */,
+				ADD20EB226FCB90200B99BC5 /* Frameworks */,
+				ADD20EB326FCB90200B99BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safari Tabs (iOS)";
+			productName = "Safari Tabs (iOS)";
+			productReference = ADD20EB526FCB90200B99BC5 /* Safari Tabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD20EBA26FCB90200B99BC5 /* Safari Tabs (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD20EE126FCB90200B99BC5 /* Build configuration list for PBXNativeTarget "Safari Tabs (macOS)" */;
+			buildPhases = (
+				ADD20EB726FCB90200B99BC5 /* Sources */,
+				ADD20EB826FCB90200B99BC5 /* Frameworks */,
+				ADD20EB926FCB90200B99BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safari Tabs (macOS)";
+			productName = "Safari Tabs (macOS)";
+			productReference = ADD20EBB26FCB90200B99BC5 /* Safari Tabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD20EC126FCB90200B99BC5 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD20EE426FCB90200B99BC5 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				ADD20EBE26FCB90200B99BC5 /* Sources */,
+				ADD20EBF26FCB90200B99BC5 /* Frameworks */,
+				ADD20EC026FCB90200B99BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD20EC426FCB90200B99BC5 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = ADD20EC226FCB90200B99BC5 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ADD20ECD26FCB90200B99BC5 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD20EE726FCB90200B99BC5 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				ADD20ECA26FCB90200B99BC5 /* Sources */,
+				ADD20ECB26FCB90200B99BC5 /* Frameworks */,
+				ADD20ECC26FCB90200B99BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD20ED026FCB90200B99BC5 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = ADD20ECE26FCB90200B99BC5 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD20EA926FCB90200B99BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ADD20EB426FCB90200B99BC5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ADD20EBA26FCB90200B99BC5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ADD20EC126FCB90200B99BC5 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ADD20EB426FCB90200B99BC5;
+					};
+					ADD20ECD26FCB90200B99BC5 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ADD20EBA26FCB90200B99BC5;
+					};
+				};
+			};
+			buildConfigurationList = ADD20EAC26FCB90200B99BC5 /* Build configuration list for PBXProject "Safari Tabs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD20EA826FCB90200B99BC5;
+			productRefGroup = ADD20EB626FCB90200B99BC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD20EB426FCB90200B99BC5 /* Safari Tabs (iOS) */,
+				ADD20EBA26FCB90200B99BC5 /* Safari Tabs (macOS) */,
+				ADD20EC126FCB90200B99BC5 /* Tests iOS */,
+				ADD20ECD26FCB90200B99BC5 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD20EB326FCB90200B99BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD20EDA26FCB90200B99BC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD20EB926FCB90200B99BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD20EDB26FCB90200B99BC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD20EC026FCB90200B99BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD20ECC26FCB90200B99BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD20EB126FCB90200B99BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD20ED826FCB90200B99BC5 /* ContentView.swift in Sources */,
+				ADE61AE026FD1BA8002AE323 /* WebView.swift in Sources */,
+				ADE61ADC26FD19D8002AE323 /* Home.swift in Sources */,
+				ADD20ED626FCB90200B99BC5 /* Safari_TabsApp.swift in Sources */,
+				ADE61ADE26FD1B02002AE323 /* Tab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD20EB726FCB90200B99BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD20ED926FCB90200B99BC5 /* ContentView.swift in Sources */,
+				ADD20ED726FCB90200B99BC5 /* Safari_TabsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD20EBE26FCB90200B99BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD20EC926FCB90200B99BC5 /* Tests_iOSLaunchTests.swift in Sources */,
+				ADD20EC726FCB90200B99BC5 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD20ECA26FCB90200B99BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD20ED526FCB90200B99BC5 /* Tests_macOSLaunchTests.swift in Sources */,
+				ADD20ED326FCB90200B99BC5 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD20EC426FCB90200B99BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD20EB426FCB90200B99BC5 /* Safari Tabs (iOS) */;
+			targetProxy = ADD20EC326FCB90200B99BC5 /* PBXContainerItemProxy */;
+		};
+		ADD20ED026FCB90200B99BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD20EBA26FCB90200B99BC5 /* Safari Tabs (macOS) */;
+			targetProxy = ADD20ECF26FCB90200B99BC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADD20EDC26FCB90200B99BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADD20EDD26FCB90200B99BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ADD20EDF26FCB90200B99BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Safari-Tabs";
+				PRODUCT_NAME = "Safari Tabs";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADD20EE026FCB90200B99BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Safari-Tabs";
+				PRODUCT_NAME = "Safari Tabs";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD20EE226FCB90200B99BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Safari-Tabs";
+				PRODUCT_NAME = "Safari Tabs";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ADD20EE326FCB90200B99BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Safari-Tabs";
+				PRODUCT_NAME = "Safari Tabs";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ADD20EE526FCB90200B99BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safari Tabs (iOS)";
+			};
+			name = Debug;
+		};
+		ADD20EE626FCB90200B99BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safari Tabs (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD20EE826FCB90200B99BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Safari Tabs (macOS)";
+			};
+			name = Debug;
+		};
+		ADD20EE926FCB90200B99BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Safari Tabs (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD20EAC26FCB90200B99BC5 /* Build configuration list for PBXProject "Safari Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD20EDC26FCB90200B99BC5 /* Debug */,
+				ADD20EDD26FCB90200B99BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD20EDE26FCB90200B99BC5 /* Build configuration list for PBXNativeTarget "Safari Tabs (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD20EDF26FCB90200B99BC5 /* Debug */,
+				ADD20EE026FCB90200B99BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD20EE126FCB90200B99BC5 /* Build configuration list for PBXNativeTarget "Safari Tabs (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD20EE226FCB90200B99BC5 /* Debug */,
+				ADD20EE326FCB90200B99BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD20EE426FCB90200B99BC5 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD20EE526FCB90200B99BC5 /* Debug */,
+				ADD20EE626FCB90200B99BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD20EE726FCB90200B99BC5 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD20EE826FCB90200B99BC5 /* Debug */,
+				ADD20EE926FCB90200B99BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADD20EA926FCB90200B99BC5 /* Project object */;
+}

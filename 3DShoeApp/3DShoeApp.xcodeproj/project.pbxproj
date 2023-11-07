@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD245A6228BD329700D8708F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD245A6128BD329700D8708F /* Home.swift */; };
+		AD245A6428BD32D800D8708F /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD245A6328BD32D800D8708F /* CustomSceneView.swift */; };
+		AD245A6628BD39F900D8708F /* Nike_Air_Jordan.scn in Resources */ = {isa = PBXBuildFile; fileRef = AD245A6528BD39F900D8708F /* Nike_Air_Jordan.scn */; };
+		AD34BE9E28BBB6880088E351 /* _DShoeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34BE8E28BBB6870088E351 /* _DShoeAppApp.swift */; };
+		AD34BE9F28BBB6880088E351 /* _DShoeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34BE8E28BBB6870088E351 /* _DShoeAppApp.swift */; };
+		AD34BEA028BBB6880088E351 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34BE8F28BBB6870088E351 /* ContentView.swift */; };
+		AD34BEA128BBB6880088E351 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34BE8F28BBB6870088E351 /* ContentView.swift */; };
+		AD34BEA228BBB6880088E351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD34BE9028BBB6880088E351 /* Assets.xcassets */; };
+		AD34BEA328BBB6880088E351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD34BE9028BBB6880088E351 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD245A6128BD329700D8708F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD245A6328BD32D800D8708F /* CustomSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
+		AD245A6528BD39F900D8708F /* Nike_Air_Jordan.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Nike_Air_Jordan.scn; sourceTree = "<group>"; };
+		AD34BE8E28BBB6870088E351 /* _DShoeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DShoeAppApp.swift; sourceTree = "<group>"; };
+		AD34BE8F28BBB6870088E351 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD34BE9028BBB6880088E351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD34BE9528BBB6880088E351 /* 3DShoeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DShoeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34BE9B28BBB6880088E351 /* 3DShoeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DShoeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34BE9D28BBB6880088E351 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD34BE9228BBB6880088E351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34BE9828BBB6880088E351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD245A6028BD328F00D8708F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD245A6128BD329700D8708F /* Home.swift */,
+				AD245A6328BD32D800D8708F /* CustomSceneView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD34BE8828BBB6870088E351 = {
+			isa = PBXGroup;
+			children = (
+				AD245A6528BD39F900D8708F /* Nike_Air_Jordan.scn */,
+				AD34BE8D28BBB6870088E351 /* Shared */,
+				AD34BE9C28BBB6880088E351 /* macOS */,
+				AD34BE9628BBB6880088E351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD34BE8D28BBB6870088E351 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD245A6028BD328F00D8708F /* View */,
+				AD34BE8E28BBB6870088E351 /* _DShoeAppApp.swift */,
+				AD34BE8F28BBB6870088E351 /* ContentView.swift */,
+				AD34BE9028BBB6880088E351 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD34BE9628BBB6880088E351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD34BE9528BBB6880088E351 /* 3DShoeApp.app */,
+				AD34BE9B28BBB6880088E351 /* 3DShoeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD34BE9C28BBB6880088E351 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD34BE9D28BBB6880088E351 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD34BE9428BBB6880088E351 /* 3DShoeApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34BEA628BBB6880088E351 /* Build configuration list for PBXNativeTarget "3DShoeApp (iOS)" */;
+			buildPhases = (
+				AD34BE9128BBB6880088E351 /* Sources */,
+				AD34BE9228BBB6880088E351 /* Frameworks */,
+				AD34BE9328BBB6880088E351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3DShoeApp (iOS)";
+			productName = "3DShoeApp (iOS)";
+			productReference = AD34BE9528BBB6880088E351 /* 3DShoeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD34BE9A28BBB6880088E351 /* 3DShoeApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34BEA928BBB6880088E351 /* Build configuration list for PBXNativeTarget "3DShoeApp (macOS)" */;
+			buildPhases = (
+				AD34BE9728BBB6880088E351 /* Sources */,
+				AD34BE9828BBB6880088E351 /* Frameworks */,
+				AD34BE9928BBB6880088E351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3DShoeApp (macOS)";
+			productName = "3DShoeApp (macOS)";
+			productReference = AD34BE9B28BBB6880088E351 /* 3DShoeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD34BE8928BBB6870088E351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AD34BE9428BBB6880088E351 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AD34BE9A28BBB6880088E351 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AD34BE8C28BBB6870088E351 /* Build configuration list for PBXProject "3DShoeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD34BE8828BBB6870088E351;
+			productRefGroup = AD34BE9628BBB6880088E351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD34BE9428BBB6880088E351 /* 3DShoeApp (iOS) */,
+				AD34BE9A28BBB6880088E351 /* 3DShoeApp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD34BE9328BBB6880088E351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD245A6628BD39F900D8708F /* Nike_Air_Jordan.scn in Resources */,
+				AD34BEA228BBB6880088E351 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34BE9928BBB6880088E351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34BEA328BBB6880088E351 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD34BE9128BBB6880088E351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD245A6428BD32D800D8708F /* CustomSceneView.swift in Sources */,
+				AD34BEA028BBB6880088E351 /* ContentView.swift in Sources */,
+				AD245A6228BD329700D8708F /* Home.swift in Sources */,
+				AD34BE9E28BBB6880088E351 /* _DShoeAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34BE9728BBB6880088E351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34BEA128BBB6880088E351 /* ContentView.swift in Sources */,
+				AD34BE9F28BBB6880088E351 /* _DShoeAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD34BEA428BBB6880088E351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD34BEA528BBB6880088E351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD34BEA728BBB6880088E351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.-DShoeApp";
+				PRODUCT_NAME = 3DShoeApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD34BEA828BBB6880088E351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.-DShoeApp";
+				PRODUCT_NAME = 3DShoeApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD34BEAA28BBB6880088E351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.-DShoeApp";
+				PRODUCT_NAME = 3DShoeApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD34BEAB28BBB6880088E351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.-DShoeApp";
+				PRODUCT_NAME = 3DShoeApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD34BE8C28BBB6870088E351 /* Build configuration list for PBXProject "3DShoeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34BEA428BBB6880088E351 /* Debug */,
+				AD34BEA528BBB6880088E351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34BEA628BBB6880088E351 /* Build configuration list for PBXNativeTarget "3DShoeApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34BEA728BBB6880088E351 /* Debug */,
+				AD34BEA828BBB6880088E351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34BEA928BBB6880088E351 /* Build configuration list for PBXNativeTarget "3DShoeApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34BEAA28BBB6880088E351 /* Debug */,
+				AD34BEAB28BBB6880088E351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD34BE8928BBB6870088E351 /* Project object */;
+}
